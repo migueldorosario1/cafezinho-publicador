@@ -1,0 +1,34 @@
+name: Publicar entrada no Cafezinho
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "posts/entrada.md"
+  workflow_dispatch:
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Publicar arquivo de entrada
+        env:
+          CAFEZINHO_WP_URL: ${{ secrets.CAFEZINHO_WP_URL }}
+          CAFEZINHO_WP_USER: ${{ secrets.CAFEZINHO_WP_USER }}
+          CAFEZINHO_WP_APP_PASSWORD: ${{ secrets.CAFEZINHO_WP_APP_PASSWORD }}
+          CAFEZINHO_WP_AUTHOR_ID: ${{ secrets.CAFEZINHO_WP_AUTHOR_ID }}
+          R2_PUBLIC_BASE_URL: ${{ secrets.R2_PUBLIC_BASE_URL }}
+        run: python publicar_arquivo.py
