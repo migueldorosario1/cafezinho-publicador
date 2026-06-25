@@ -130,6 +130,12 @@ Esperado: **86/86 PASS**.
 **DB default:** `agents/biblioteca_midia/data/acervo.db`
 **Override:** `ACERVO_MIDIA_DB_PATH=/path/to/custom.db`
 
+**DB canônico em produção Tencent:** `/root/agent_data/acervo_midia/acervo.db`
+
+Ver [`OPERACAO_CANONICA.md`](./OPERACAO_CANONICA.md). Bancos antigos de mídia
+existem apenas como fonte legada de importação/auditoria; nenhum produtor novo
+deve escrever neles.
+
 ---
 
 ## 📜 Contrato
