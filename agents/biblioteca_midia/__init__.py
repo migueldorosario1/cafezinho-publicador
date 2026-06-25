@@ -12,4 +12,8 @@ Contratos canônicos em ``contracts.py`` — estáveis para todos os
 produtores e consumidores atuais e futuros.
 """
 
+from .seletor import selecionar_imagem
+
 __version__ = "0.1.0"
+
+__all__ = ["selecionar_imagem"]
