@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import logging
 import mimetypes
 from pathlib import Path
+from typing import Optional
 from urllib.parse import urlparse
 
 import requests
@@ -15,9 +17,31 @@ def nome_arquivo(url: str) -> str:
     return nome or "imagem-cafezinho.jpg"
 
 
-def enviar_midia_por_url(url: str, alt_text: str = "", caption: str = "") -> int:
-    origem = requests.get(url, timeout=60)
-    origem.raise_for_status()
+def enviar_midia_por_url(url: str, alt_text: str = "", caption: str = "") -> Optional[int]:
+    """Envia uma imagem remota para o WordPress.
+
+    Falhas na origem da imagem (404, timeout, DNS etc.) não devem derrubar
+    a publicação inteira. Nesses casos retornamos None e o post pode ser
+    criado sem imagem destacada.
+
+    Erros no upload para o WordPress continuam sendo exceção, porque indicam
+    problema real de credencial/API do publicador.
+    """
+    try:
+        origem = requests.get(url, timeout=60)
+    except requests.exceptions.RequestException as erro:
+        logging.warning("Falha ao baixar imagem %s: %s", url, erro)
+        return None
+
+    if origem.status_code == 404:
+        logging.warning("Imagem nao encontrada (404): %s. Publicando sem imagem.", url)
+        return None
+
+    try:
+        origem.raise_for_status()
+    except requests.exceptions.RequestException as erro:
+        logging.warning("Erro ao baixar imagem %s: %s. Publicando sem imagem.", url, erro)
+        return None
 
     nome = nome_arquivo(url)
     tipo = origem.headers.get("content-type") or mimetypes.guess_type(nome)[0] or "image/jpeg"
