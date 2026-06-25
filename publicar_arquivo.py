@@ -10,6 +10,7 @@ except ImportError:
 
 from wordpress.publicar_post import criar_post
 from wordpress.upload_media import enviar_midia_por_url
+from agents.biblioteca_midia import selecionar_imagem
 
 
 def carregar_env() -> None:
@@ -50,9 +51,44 @@ def ler_post(caminho: str) -> dict:
         "category_ids": extrair_campo(cabecalho, "category_ids"),
         "tags": extrair_campo(cabecalho, "tags"),
         "image_url": extrair_campo(cabecalho, "image_url"),
+        "image_query": extrair_campo(cabecalho, "image_query"),
         "image_alt": extrair_campo(cabecalho, "image_alt"),
         "image_caption": extrair_campo(cabecalho, "image_caption"),
     }
+
+
+def legenda_com_credito(caption: str = "", credit: str = "") -> str:
+    partes = [parte.strip() for parte in [caption, credit] if parte and parte.strip()]
+    return " — ".join(partes)
+
+
+def resolver_imagem_destacada(dados: dict) -> tuple[str, str, str]:
+    if dados["image_url"]:
+        return dados["image_url"], dados["image_alt"], dados["image_caption"]
+
+    if not dados["image_query"]:
+        return "", "", ""
+
+    try:
+        imagem = selecionar_imagem(
+            dados["image_query"],
+            titulo=dados["titulo"],
+            conteudo=dados["conteudo"],
+        )
+    except Exception as erro:
+        print(f"Aviso: seletor automatico de imagem falhou. Motivo: {erro}")
+        return "", "", ""
+
+    if not imagem:
+        print(f"Aviso: nenhuma imagem encontrada para image_query='{dados['image_query']}'")
+        return "", "", ""
+
+    print(f"Imagem selecionada automaticamente: {imagem.get('image_id')}")
+    return (
+        str(imagem.get("url", "")),
+        str(imagem.get("alt", "")),
+        legenda_com_credito(str(imagem.get("caption", "")), str(imagem.get("credit", ""))),
+    )
 
 
 def main() -> None:
@@ -60,12 +96,13 @@ def main() -> None:
     dados = ler_post("posts/entrada.md")
 
     featured_media = None
-    if dados["image_url"]:
+    image_url, image_alt, image_caption = resolver_imagem_destacada(dados)
+    if image_url:
         print("Enviando imagem destacada ao WordPress")
         featured_media = enviar_midia_por_url(
-            dados["image_url"],
-            alt_text=dados["image_alt"],
-            caption=dados["image_caption"],
+            image_url,
+            alt_text=image_alt,
+            caption=image_caption,
         )
         print(f"Imagem enviada. Media ID: {featured_media}")
 
