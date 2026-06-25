@@ -18,6 +18,7 @@ from pathlib import Path
 # ============================================================
 
 DEFAULT_DB_FILENAME = "acervo.db"
+CANONICAL_PRODUCTION_DB_PATH = "/root/agent_data/acervo_midia/acervo.db"
 
 def default_db_path() -> Path:
     """Path default: ``agents/biblioteca_midia/data/acervo.db``.
@@ -28,6 +29,15 @@ def default_db_path() -> Path:
     if env:
         return Path(env)
     return Path(__file__).resolve().parent / "data" / DEFAULT_DB_FILENAME
+
+
+def canonical_production_db_path() -> Path:
+    """Path canônico do acervo em produção Tencent.
+
+    Bancos legados não devem receber novas escritas. Em produção, serviços
+    permanentes devem setar ``ACERVO_MIDIA_DB_PATH`` para este caminho.
+    """
+    return Path(CANONICAL_PRODUCTION_DB_PATH)
 
 
 # ============================================================
@@ -50,13 +60,16 @@ MAX_BYTES_SIZE = 10_000_000_000  # 10 GB
 ENV_VARS = {
     "ACERVO_MIDIA_DB_PATH": (
         "Override do path do SQLite. Default: "
-        "agents/biblioteca_midia/data/acervo.db"
+        "agents/biblioteca_midia/data/acervo.db. Em produção Tencent, usar "
+        f"{CANONICAL_PRODUCTION_DB_PATH}"
     ),
 }
 
 __all__ = [
     "DEFAULT_DB_FILENAME",
+    "CANONICAL_PRODUCTION_DB_PATH",
     "default_db_path",
+    "canonical_production_db_path",
     "MAX_SEARCH_LIMIT",
     "DEFAULT_SEARCH_LIMIT",
     "MAX_TITLE_LENGTH",

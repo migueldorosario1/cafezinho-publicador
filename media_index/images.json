@@ -1,17 +1,19 @@
 [
   {
-    "image_id": "moraes-posse-2023",
-    "url": "https://pub-7c53d388419e4d44b17eace540ae7e22.r2.dev/midia/politica/alexandre-de-moraes/27f6fbeced0f_posse-presidencial-2023-52600296107.jpg",
+    "image_id": "moraes-justica-eleitoral-2022",
+    "url": "https://pub-7c53d388419e4d44b17eace540ae7e22.r2.dev/midia/politica/alexandre-de-moraes/f7e6bdedda11_encontro-democracia-e-consciencia-antirracista-na-justica-eleitoral-30-11-2022.jpg",
+    "r2_key": "midia/politica/alexandre-de-moraes/f7e6bdedda11_encontro-democracia-e-consciencia-antirracista-na-justica-eleitoral-30-11-2022.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Encontro_Democracia_e_Consci%C3%AAncia_Antirracista_na_Justi%C3%A7a_Eleitoral_30.11.2022.jpg",
     "people": ["Alexandre de Moraes"],
-    "organizations": ["STF"],
-    "themes": ["judiciário", "política", "posse presidencial"],
-    "keywords": ["alexandre de moraes", "moraes", "stf", "supremo", "judiciário", "posse", "brasília"],
-    "caption": "Alexandre de Moraes durante cerimônia de posse presidencial em 2023",
-    "credit": "Foto: reprodução / acervo público",
-    "license": "CC BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/lulaoficial/52600296107",
-    "alt": "Alexandre de Moraes durante cerimônia oficial em Brasília",
+    "organizations": ["STF", "TSE", "Justiça Eleitoral"],
+    "themes": ["judiciário", "política", "justiça eleitoral", "democracia"],
+    "keywords": ["alexandre de moraes", "moraes", "stf", "tse", "supremo", "judiciário", "justiça eleitoral"],
+    "caption": "Alexandre de Moraes durante encontro sobre democracia e consciência antirracista na Justiça Eleitoral, em 2022",
+    "credit": "Foto: Wikimedia Commons",
+    "license": "Wikimedia Commons - Attribution",
+    "alt": "Alexandre de Moraes conversa durante evento da Justiça Eleitoral",
     "status": "approved",
-    "editorial_featured": true
+    "editorial_featured": true,
+    "visual_confirmed": true
   }
 ]
