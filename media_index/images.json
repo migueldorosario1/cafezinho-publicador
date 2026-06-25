@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "image_id": "moraes-justica-eleitoral-2022",
+    "url": "https://pub-7c53d388419e4d44b17eace540ae7e22.r2.dev/midia/politica/alexandre-de-moraes/f7e6bdedda11_encontro-democracia-e-consciencia-antirracista-na-justica-eleitoral-30-11-2022.jpg",
+    "r2_key": "midia/politica/alexandre-de-moraes/f7e6bdedda11_encontro-democracia-e-consciencia-antirracista-na-justica-eleitoral-30-11-2022.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Encontro_Democracia_e_Consci%C3%AAncia_Antirracista_na_Justi%C3%A7a_Eleitoral_30.11.2022.jpg",
+    "people": ["Alexandre de Moraes"],
+    "organizations": ["STF", "TSE", "Justiça Eleitoral"],
+    "themes": ["judiciário", "política", "justiça eleitoral", "democracia"],
+    "keywords": ["alexandre de moraes", "moraes", "stf", "tse", "supremo", "judiciário", "justiça eleitoral"],
+    "caption": "Alexandre de Moraes durante encontro sobre democracia e consciência antirracista na Justiça Eleitoral, em 2022",
+    "credit": "Foto: Wikimedia Commons",
+    "license": "Wikimedia Commons - Attribution",
+    "alt": "Alexandre de Moraes conversa durante evento da Justiça Eleitoral",
+    "status": "approved",
+    "editorial_featured": true,
+    "visual_confirmed": true
+  }
+]
