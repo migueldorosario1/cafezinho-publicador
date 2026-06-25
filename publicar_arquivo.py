@@ -9,6 +9,7 @@ except ImportError:
     load_dotenv = None
 
 from wordpress.publicar_post import criar_post
+from wordpress.upload_media import enviar_midia_por_url
 
 
 def carregar_env() -> None:
@@ -48,12 +49,25 @@ def ler_post(caminho: str) -> dict:
         "status": extrair_campo(cabecalho, "status", "pending"),
         "category_ids": extrair_campo(cabecalho, "category_ids"),
         "tags": extrair_campo(cabecalho, "tags"),
+        "image_url": extrair_campo(cabecalho, "image_url"),
+        "image_alt": extrair_campo(cabecalho, "image_alt"),
+        "image_caption": extrair_campo(cabecalho, "image_caption"),
     }
 
 
 def main() -> None:
     carregar_env()
     dados = ler_post("posts/entrada.md")
+
+    featured_media = None
+    if dados["image_url"]:
+        print("Enviando imagem destacada ao WordPress")
+        featured_media = enviar_midia_por_url(
+            dados["image_url"],
+            alt_text=dados["image_alt"],
+            caption=dados["image_caption"],
+        )
+        print(f"Imagem enviada. Media ID: {featured_media}")
 
     post = criar_post(
         titulo=dados["titulo"],
@@ -62,6 +76,7 @@ def main() -> None:
         status=dados["status"] or "pending",
         category_ids=dados["category_ids"] or None,
         tags=dados["tags"] or None,
+        featured_media=featured_media,
     )
 
     print("Post criado com sucesso")
