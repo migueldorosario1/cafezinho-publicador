@@ -2,6 +2,20 @@
 
 Publicador simples para criar posts pendentes no WordPress a partir de `posts/entrada.md`.
 
+## Acervo Editorial de Midia
+
+O conceito oficial do projeto e **Acervo Editorial de Midia**: um acervo compartilhado de imagens boas, creditadas, indexadas e reutilizaveis pelo Publicador Cafezinho e por agentes editoriais.
+
+Neste PR, o acervo ainda e representado por um indice JSON local. Essa e uma etapa de transicao. No futuro, o mesmo contrato de selecao devera ser atendido por SQLite, Vision, embeddings, historico de uso e Cloudflare R2 como fonte canonica.
+
+A interface publica inicial e:
+
+```python
+selecionar_imagem(query: str, titulo: str = "", conteudo: str = "", index_path: str = "media_index/images.json")
+```
+
+Essa assinatura deve permanecer estavel. A implementacao interna pode evoluir, mas o publicador e os agentes consumidores nao devem precisar mudar quando o indice JSON for substituido pelo Acervo Editorial de Midia completo.
+
 ## Uso do seletor automatico de imagem
 
 O front matter do arquivo `posts/entrada.md` pode informar uma imagem destacada de duas formas:

@@ -1,3 +1,11 @@
+"""Seletor minimo do Acervo Editorial de Midia.
+
+Este modulo ainda usa `media_index/images.json`, mas a funcao publica
+`selecionar_imagem(...)` e o contrato estavel para o publicador. A fonte de
+dados pode migrar para SQLite, Vision, embeddings e R2 sem mudar os
+consumidores.
+"""
+
 from __future__ import annotations
 
 import json
