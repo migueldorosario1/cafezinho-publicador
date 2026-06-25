@@ -1,0 +1,1 @@
+"""Publicador WordPress do Cafezinho."""
