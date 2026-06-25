@@ -1,0 +1,10 @@
+# Acervo Editorial de Mídia — dependências Python
+#
+# O acervo é SQLite-first e minimalista. Só depende de Pydantic V2.
+# Demais dependências (boto3 para R2, flickr api, etc) vivem nos agentes
+# especializados (flickr_harvester, r2_uploader), não no núcleo do acervo.
+
+pydantic>=2.5,<3.0
+
+# Testes (não obrigatórios em produção)
+pytest>=7.4
