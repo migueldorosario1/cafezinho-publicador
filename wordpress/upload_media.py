@@ -2,11 +2,13 @@ from __future__ import annotations
 
 import logging
 import mimetypes
+from io import BytesIO
 from pathlib import Path
 from typing import Optional
 from urllib.parse import urlparse
 
 import requests
+from PIL import Image
 
 from .utils import wp_auth, wp_base_url
 
@@ -15,6 +17,25 @@ def nome_arquivo(url: str) -> str:
     parsed = urlparse(url)
     nome = Path(parsed.path).name
     return nome or "imagem-cafezinho.jpg"
+
+
+def otimizar_imagem_para_wordpress(conteudo: bytes, nome: str) -> tuple[bytes, str, str]:
+    """Gera uma versão leve para evitar timeout no upload ao WordPress."""
+    try:
+        imagem = Image.open(BytesIO(conteudo))
+        imagem.thumbnail((1600, 1600))
+        if imagem.mode not in ("RGB", "L"):
+            imagem = imagem.convert("RGB")
+
+        saida = BytesIO()
+        imagem.save(saida, format="JPEG", quality=84, optimize=True, progressive=True)
+    except Exception as erro:
+        logging.warning("Nao foi possivel otimizar imagem %s: %s", nome, erro)
+        tipo_original = mimetypes.guess_type(nome)[0] or "image/jpeg"
+        return conteudo, tipo_original, nome
+
+    nome_jpg = f"{Path(nome).stem}.jpg"
+    return saida.getvalue(), "image/jpeg", nome_jpg
 
 
 def enviar_midia_por_url(url: str, alt_text: str = "", caption: str = "") -> Optional[int]:
@@ -44,7 +65,7 @@ def enviar_midia_por_url(url: str, alt_text: str = "", caption: str = "") -> Opt
         return None
 
     nome = nome_arquivo(url)
-    tipo = origem.headers.get("content-type") or mimetypes.guess_type(nome)[0] or "image/jpeg"
+    conteudo, tipo, nome = otimizar_imagem_para_wordpress(origem.content, nome)
 
     headers = {
         "Content-Disposition": f'attachment; filename="{nome}"',
@@ -54,7 +75,7 @@ def enviar_midia_por_url(url: str, alt_text: str = "", caption: str = "") -> Opt
     envio = requests.post(
         f"{wp_base_url()}/wp-json/wp/v2/media",
         headers=headers,
-        data=origem.content,
+        data=conteudo,
         auth=wp_auth(),
         timeout=120,
     )
