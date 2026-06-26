@@ -12,6 +12,7 @@ from PIL import Image
 
 from .utils import wp_auth, wp_base_url
 
+WP_IMAGE_MIN_BYTES = 50 * 1024
 WP_IMAGE_TARGET_BYTES = 100 * 1024
 WP_IMAGE_MAX_BYTES = 500 * 1024
 
@@ -25,19 +26,22 @@ def nome_arquivo(url: str) -> str:
 def otimizar_imagem_para_wordpress(conteudo: bytes, nome: str) -> tuple[bytes, str, str]:
     """Gera uma versão leve para imagem destacada no WordPress.
 
-    Mantemos o original bom no R2. Para o WordPress, miramos menos de 100 KB
-    e nunca aceitamos passar de 500 KB quando a imagem puder ser processada.
+    Mantemos o original bom no R2. Para o WordPress, buscamos a faixa
+    saudável de 50 KB a 100 KB e nunca aceitamos passar de 500 KB quando a
+    imagem puder ser processada.
     """
     try:
         imagem = Image.open(BytesIO(conteudo))
         if imagem.mode not in ("RGB", "L"):
             imagem = imagem.convert("RGB")
 
-        melhor: bytes | None = None
+        melhor_dentro_faixa: bytes | None = None
+        menor_ate_maximo: bytes | None = None
+        maior_abaixo_minimo: bytes | None = None
         for limite in (1400, 1200, 1000, 850, 700):
             tentativa = imagem.copy()
             tentativa.thumbnail((limite, limite))
-            for qualidade in (82, 76, 70, 64, 58, 52, 46):
+            for qualidade in (90, 86, 82, 78, 74, 70, 66, 62, 58, 54, 50, 46):
                 saida = BytesIO()
                 tentativa.save(
                     saida,
@@ -47,15 +51,23 @@ def otimizar_imagem_para_wordpress(conteudo: bytes, nome: str) -> tuple[bytes, s
                     progressive=True,
                 )
                 dados = saida.getvalue()
-                if melhor is None or len(dados) < len(melhor):
-                    melhor = dados
-                if len(dados) <= WP_IMAGE_TARGET_BYTES:
-                    nome_jpg = f"{Path(nome).stem}.jpg"
-                    return dados, "image/jpeg", nome_jpg
+                tamanho = len(dados)
+                if WP_IMAGE_MIN_BYTES <= tamanho <= WP_IMAGE_TARGET_BYTES:
+                    if melhor_dentro_faixa is None or tamanho > len(melhor_dentro_faixa):
+                        melhor_dentro_faixa = dados
+                elif tamanho < WP_IMAGE_MIN_BYTES:
+                    if maior_abaixo_minimo is None or tamanho > len(maior_abaixo_minimo):
+                        maior_abaixo_minimo = dados
+                elif tamanho <= WP_IMAGE_MAX_BYTES:
+                    if menor_ate_maximo is None or tamanho < len(menor_ate_maximo):
+                        menor_ate_maximo = dados
 
-        if melhor and len(melhor) <= WP_IMAGE_MAX_BYTES:
+        escolhido = melhor_dentro_faixa or menor_ate_maximo or maior_abaixo_minimo
+        if escolhido and len(escolhido) <= WP_IMAGE_MAX_BYTES:
             nome_jpg = f"{Path(nome).stem}.jpg"
-            return melhor, "image/jpeg", nome_jpg
+            if len(escolhido) < WP_IMAGE_MIN_BYTES:
+                logging.warning("Imagem %s ficou abaixo de 50 KB apos otimizacao", nome)
+            return escolhido, "image/jpeg", nome_jpg
     except Exception as erro:
         logging.warning("Nao foi possivel otimizar imagem %s: %s", nome, erro)
         tipo_original = mimetypes.guess_type(nome)[0] or "image/jpeg"
