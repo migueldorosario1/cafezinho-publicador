@@ -104,7 +104,10 @@ def main() -> None:
             alt_text=image_alt,
             caption=image_caption,
         )
-        print(f"Imagem enviada. Media ID: {featured_media}")
+        if featured_media:
+            print(f"Imagem enviada. Media ID: {featured_media}")
+        else:
+            print("Aviso: publicacao seguira sem imagem destacada")
 
     post = criar_post(
         titulo=dados["titulo"],

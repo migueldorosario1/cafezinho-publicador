@@ -1,20 +1,14 @@
 ---
-title: "Teste funcional do Publicador Cafezinho com imagem"
+title: "Teste funcional do Publicador Cafezinho com imagem válida"
 status: "pending"
 tags: "teste, cafezinho, publicador, r2"
-image_url: "https://pub-7c53d388419e4d44b17eace540ae7e22.r2.dev/midia/politica/alexandre-de-moraes/27f6fbeced0f_posse-presidencial-2023-52600296107.jpg"
-image_alt: "Alexandre de Moraes durante cerimônia de posse presidencial em 2023"
-image_caption: "Foto: reprodução / acervo público"
+image_url: "https://pub-7c53d388419e4d44b17eace540ae7e22.r2.dev/canonico/entidades/brasil/juristas/f7e6bdedda11_alexandre_de_moraes_justica_eleitoral.jpg"
+image_alt: "Alexandre de Moraes em imagem institucional relacionada à Justiça Eleitoral"
+image_caption: "Alexandre de Moraes. Foto: acervo editorial / R2"
 ---
 
-Este é um teste funcional do Publicador Cafezinho.
+Este é um teste funcional do Publicador Cafezinho usando uma imagem válida hospedada no Cloudflare R2.
 
-O objetivo é confirmar que o sistema consegue criar um post pendente no WordPress, enviar uma imagem pública do Cloudflare R2 para a biblioteca de mídia e defini-la como imagem destacada.
+O objetivo é confirmar que o sistema consegue criar um post pendente no WordPress, enviar a imagem do R2 para a biblioteca de mídia do WordPress e defini-la como imagem destacada.
 
-Este teste também verifica o uso de tags automáticas no fluxo de publicação.
-
-Categoria (sugestão): política
-
-Autor: Redação
-
-Tags: teste, cafezinho, publicador, R2
+Se este teste ficar verde, teremos uma vitória funcional: publicação pendente com imagem destacada via R2.
