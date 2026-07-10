@@ -16,6 +16,11 @@ WP_IMAGE_MIN_BYTES = 50 * 1024
 WP_IMAGE_TARGET_BYTES = 100 * 1024
 WP_IMAGE_MAX_BYTES = 500 * 1024
 
+SOURCE_HEADERS = {
+    "User-Agent": "CafezinhoPublicador/1.0 (+https://ocafezinho.com)",
+    "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+}
+
 
 def nome_arquivo(url: str) -> str:
     parsed = urlparse(url)
@@ -76,7 +81,12 @@ def otimizar_imagem_para_wordpress(conteudo: bytes, nome: str) -> tuple[bytes, s
 def enviar_midia_por_url(url: str, alt_text: str = "", caption: str = "") -> Optional[int]:
     """Envia uma imagem remota para o WordPress e retorna o attachment ID."""
     try:
-        origem = requests.get(url, timeout=60)
+        origem = requests.get(
+            url,
+            headers=SOURCE_HEADERS,
+            timeout=60,
+            allow_redirects=True,
+        )
     except requests.exceptions.RequestException as erro:
         logging.warning("Falha ao baixar imagem %s: %s", url, erro)
         return None
@@ -88,7 +98,21 @@ def enviar_midia_por_url(url: str, alt_text: str = "", caption: str = "") -> Opt
     try:
         origem.raise_for_status()
     except requests.exceptions.RequestException as erro:
-        logging.warning("Erro ao baixar imagem %s: %s. Publicando sem imagem.", url, erro)
+        logging.warning(
+            "Erro ao baixar imagem %s: status=%s, erro=%s. Publicando sem imagem.",
+            url,
+            origem.status_code,
+            erro,
+        )
+        return None
+
+    tipo_origem = origem.headers.get("content-type", "")
+    if not tipo_origem.lower().startswith("image/"):
+        logging.warning(
+            "Fonte nao retornou imagem para %s: content-type=%s. Publicando sem imagem.",
+            url,
+            tipo_origem,
+        )
         return None
 
     nome = nome_arquivo(url)
