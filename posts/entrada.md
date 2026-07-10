@@ -1,6 +1,6 @@
 ---
-title: "Teste automático de upload de mídia fora do R2"
-excerpt: "Rascunho técnico para isolar o upload de imagens no WordPress sem depender do endpoint público do R2."
+title: "Teste automático de upload de mídia com User-Agent"
+excerpt: "Rascunho técnico para validar o download e o upload de imagens no WordPress após correção do downloader."
 status: "draft"
 category_ids: "22"
 tags: "teste, cafezinho, wordpress, automação, imagem, diagnóstico"
@@ -20,4 +20,4 @@ O sistema deve criar um rascunho na categoria Política, associar tags, enviar u
 
 Este conteúdo não deve ser publicado no site. Ele deve permanecer como rascunho para conferência técnica.
 
-Este teste usa a fonte pública original da imagem para separar o funcionamento do WordPress de eventuais problemas no endpoint público do R2.
+Este teste usa uma requisição identificada por User-Agent e a fonte pública original da imagem.
