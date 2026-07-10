@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "post_id": 261502,
+  "titulo": "Teste automático com recibo do WordPress",
+  "status": "draft",
+  "edit_link": "https://ocafezinho.com/wp-admin/post.php?post=261502&action=edit",
+  "public_link": "https://www.ocafezinho.com/?p=261502",
+  "featured_media_id": null,
+  "categoria_ids": "22",
+  "tags": "teste, cafezinho, wordpress, automação, recibo",
+  "gerado_em": "2026-07-10T19:23:41.365809+00:00",
+  "github_sha": "837cd93264046f80cfb729ec334b442badedc103",
+  "github_run_id": "29117824419"
+}
