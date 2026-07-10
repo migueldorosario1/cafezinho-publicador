@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import html
 import re
 from pathlib import Path
 
@@ -9,7 +10,7 @@ except ImportError:
     load_dotenv = None
 
 from wordpress.publicar_post import criar_post
-from wordpress.upload_media import enviar_midia_por_url
+from wordpress.upload_media import enviar_midia_por_url, obter_url_midia
 from agents.biblioteca_midia import selecionar_imagem
 
 
@@ -54,6 +55,9 @@ def ler_post(caminho: str) -> dict:
         "image_query": extrair_campo(cabecalho, "image_query"),
         "image_alt": extrair_campo(cabecalho, "image_alt"),
         "image_caption": extrair_campo(cabecalho, "image_caption"),
+        "inline_image_url": extrair_campo(cabecalho, "inline_image_url"),
+        "inline_image_alt": extrair_campo(cabecalho, "inline_image_alt"),
+        "inline_image_caption": extrair_campo(cabecalho, "inline_image_caption"),
     }
 
 
@@ -91,6 +95,49 @@ def resolver_imagem_destacada(dados: dict) -> tuple[str, str, str]:
     )
 
 
+def figura_html(url: str, alt_text: str = "", caption: str = "") -> str:
+    alt = html.escape(alt_text or "")
+    src = html.escape(url, quote=True)
+    legenda = html.escape(caption or "")
+    figcaption = f"<figcaption>{legenda}</figcaption>" if legenda else ""
+    return (
+        '<figure class="wp-block-image size-large">'
+        f'<img src="{src}" alt="{alt}" />'
+        f"{figcaption}"
+        "</figure>"
+    )
+
+
+def inserir_imagem_inline(dados: dict, featured_media: int | None, featured_url: str) -> str:
+    inline_url = dados.get("inline_image_url") or ""
+    if not inline_url:
+        return dados["conteudo"].replace("{{INLINE_IMAGE}}", "")
+
+    media_id: int | None
+    if featured_media and inline_url == featured_url:
+        media_id = featured_media
+        print("Reutilizando a imagem destacada também no corpo")
+    else:
+        print("Enviando imagem inline ao WordPress")
+        media_id = enviar_midia_por_url(
+            inline_url,
+            alt_text=dados.get("inline_image_alt") or "",
+            caption=dados.get("inline_image_caption") or "",
+        )
+
+    if not media_id:
+        print("Aviso: imagem inline indisponivel; removendo marcador do corpo")
+        return dados["conteudo"].replace("{{INLINE_IMAGE}}", "")
+
+    source_url = obter_url_midia(media_id)
+    bloco = figura_html(
+        source_url,
+        alt_text=dados.get("inline_image_alt") or "",
+        caption=dados.get("inline_image_caption") or "",
+    )
+    return dados["conteudo"].replace("{{INLINE_IMAGE}}", bloco)
+
+
 def main() -> None:
     carregar_env()
     dados = ler_post("posts/entrada.md")
@@ -109,9 +156,11 @@ def main() -> None:
         else:
             print("Aviso: publicacao seguira sem imagem destacada")
 
+    conteudo_final = inserir_imagem_inline(dados, featured_media, image_url)
+
     post = criar_post(
         titulo=dados["titulo"],
-        conteudo=dados["conteudo"],
+        conteudo=conteudo_final,
         excerpt=dados["excerpt"] or None,
         status=dados["status"] or "pending",
         category_ids=dados["category_ids"] or None,
