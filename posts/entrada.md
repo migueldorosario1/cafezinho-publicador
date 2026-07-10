@@ -1,18 +1,18 @@
 ---
-title: "Teste automático com imagem validada do acervo"
-excerpt: "Rascunho técnico para validar imagem destacada e imagem interna pelo fluxo ChatGPT → GitHub Actions → WordPress."
+title: "Teste automático de upload de mídia fora do R2"
+excerpt: "Rascunho técnico para isolar o upload de imagens no WordPress sem depender do endpoint público do R2."
 status: "draft"
 category_ids: "22"
-tags: "teste, cafezinho, wordpress, automação, imagem, r2"
-image_url: "https://pub-7c53d388419e4d44b17eace540ae7e22.r2.dev/midia/politica/lula/f1b45142b24f_foto-oficial-de-luiz-inacio-lula-da-silva-ombros-jpg.jpg"
+tags: "teste, cafezinho, wordpress, automação, imagem, diagnóstico"
+image_url: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28ombros%29.jpg"
 image_alt: "Retrato oficial do presidente Luiz Inácio Lula da Silva"
 image_caption: "Foto oficial do presidente Luiz Inácio Lula da Silva — Foto: Palácio do Planalto"
-inline_image_url: "https://pub-7c53d388419e4d44b17eace540ae7e22.r2.dev/midia/politica/lula/f1b45142b24f_foto-oficial-de-luiz-inacio-lula-da-silva-ombros-jpg.jpg"
+inline_image_url: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28ombros%29.jpg"
 inline_image_alt: "Retrato oficial do presidente Luiz Inácio Lula da Silva inserido no corpo do teste"
-inline_image_caption: "Imagem de teste do acervo editorial do Cafezinho"
+inline_image_caption: "Imagem inserida no corpo para validar o upload de mídia no WordPress"
 ---
 
-Este é um texto mock criado exclusivamente para testar a publicação automática no WordPress do Cafezinho.
+Este é um texto mock criado exclusivamente para diagnosticar o upload automático de imagens no WordPress do Cafezinho.
 
 O sistema deve criar um rascunho na categoria Política, associar tags, enviar uma imagem destacada e inserir a mesma mídia no corpo da matéria.
 
@@ -20,4 +20,4 @@ O sistema deve criar um rascunho na categoria Política, associar tags, enviar u
 
 Este conteúdo não deve ser publicado no site. Ele deve permanecer como rascunho para conferência técnica.
 
-O teste usa uma imagem aprovada e registrada no índice atual do acervo de mídia.
+Este teste usa a fonte pública original da imagem para separar o funcionamento do WordPress de eventuais problemas no endpoint público do R2.
