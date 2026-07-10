@@ -24,12 +24,7 @@ def nome_arquivo(url: str) -> str:
 
 
 def otimizar_imagem_para_wordpress(conteudo: bytes, nome: str) -> tuple[bytes, str, str]:
-    """Gera uma versão leve para imagem destacada no WordPress.
-
-    Mantemos o original bom no R2. Para o WordPress, buscamos a faixa
-    saudável de 50 KB a 100 KB e nunca aceitamos passar de 500 KB quando a
-    imagem puder ser processada.
-    """
+    """Gera uma versão leve para uso no WordPress."""
     try:
         imagem = Image.open(BytesIO(conteudo))
         if imagem.mode not in ("RGB", "L"):
@@ -79,15 +74,7 @@ def otimizar_imagem_para_wordpress(conteudo: bytes, nome: str) -> tuple[bytes, s
 
 
 def enviar_midia_por_url(url: str, alt_text: str = "", caption: str = "") -> Optional[int]:
-    """Envia uma imagem remota para o WordPress.
-
-    Falhas na origem da imagem (404, timeout, DNS etc.) não devem derrubar
-    a publicação inteira. Nesses casos retornamos None e o post pode ser
-    criado sem imagem destacada.
-
-    Erros no upload para o WordPress continuam sendo exceção, porque indicam
-    problema real de credencial/API do publicador.
-    """
+    """Envia uma imagem remota para o WordPress e retorna o attachment ID."""
     try:
         origem = requests.get(url, timeout=60)
     except requests.exceptions.RequestException as erro:
@@ -142,3 +129,14 @@ def enviar_midia_por_url(url: str, alt_text: str = "", caption: str = "") -> Opt
         atualiza.raise_for_status()
 
     return media_id
+
+
+def obter_url_midia(media_id: int) -> str:
+    """Retorna a URL pública de um attachment já criado no WordPress."""
+    resposta = requests.get(
+        f"{wp_base_url()}/wp-json/wp/v2/media/{media_id}",
+        auth=wp_auth(),
+        timeout=60,
+    )
+    resposta.raise_for_status()
+    return str(resposta.json().get("source_url", ""))
