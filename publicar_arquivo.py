@@ -1,7 +1,10 @@
 from __future__ import annotations
 
 import html
+import json
+import os
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 
 try:
@@ -9,9 +12,10 @@ try:
 except ImportError:
     load_dotenv = None
 
+from agents.biblioteca_midia import selecionar_imagem
 from wordpress.publicar_post import criar_post
 from wordpress.upload_media import enviar_midia_por_url, obter_url_midia
-from agents.biblioteca_midia import selecionar_imagem
+from wordpress.utils import wp_base_url
 
 
 def carregar_env() -> None:
@@ -116,7 +120,7 @@ def inserir_imagem_inline(dados: dict, featured_media: int | None, featured_url:
     media_id: int | None
     if featured_media and inline_url == featured_url:
         media_id = featured_media
-        print("Reutilizando a imagem destacada também no corpo")
+        print("Reutilizando a imagem destacada tambem no corpo")
     else:
         print("Enviando imagem inline ao WordPress")
         media_id = enviar_midia_por_url(
@@ -138,40 +142,89 @@ def inserir_imagem_inline(dados: dict, featured_media: int | None, featured_url:
     return dados["conteudo"].replace("{{INLINE_IMAGE}}", bloco)
 
 
+def gravar_recibo(dados: dict) -> None:
+    pasta = Path("recibos")
+    pasta.mkdir(parents=True, exist_ok=True)
+
+    recibo = {
+        **dados,
+        "gerado_em": datetime.now(timezone.utc).isoformat(),
+        "github_sha": os.getenv("GITHUB_SHA", ""),
+        "github_run_id": os.getenv("GITHUB_RUN_ID", ""),
+    }
+
+    conteudo = json.dumps(recibo, ensure_ascii=False, indent=2) + "\n"
+    (pasta / "ultimo.json").write_text(conteudo, encoding="utf-8")
+
+    identificador = os.getenv("GITHUB_SHA", "").strip() or "local"
+    (pasta / f"{identificador}.json").write_text(conteudo, encoding="utf-8")
+
+
 def main() -> None:
-    carregar_env()
-    dados = ler_post("posts/entrada.md")
+    dados: dict = {}
+    try:
+        carregar_env()
+        dados = ler_post("posts/entrada.md")
 
-    featured_media = None
-    image_url, image_alt, image_caption = resolver_imagem_destacada(dados)
-    if image_url:
-        print("Enviando imagem destacada ao WordPress")
-        featured_media = enviar_midia_por_url(
-            image_url,
-            alt_text=image_alt,
-            caption=image_caption,
+        featured_media = None
+        image_url, image_alt, image_caption = resolver_imagem_destacada(dados)
+        if image_url:
+            print("Enviando imagem destacada ao WordPress")
+            featured_media = enviar_midia_por_url(
+                image_url,
+                alt_text=image_alt,
+                caption=image_caption,
+            )
+            if featured_media:
+                print(f"Imagem enviada. Media ID: {featured_media}")
+            else:
+                print("Aviso: publicacao seguira sem imagem destacada")
+
+        conteudo_final = inserir_imagem_inline(dados, featured_media, image_url)
+
+        post = criar_post(
+            titulo=dados["titulo"],
+            conteudo=conteudo_final,
+            excerpt=dados["excerpt"] or None,
+            status=dados["status"] or "pending",
+            category_ids=dados["category_ids"] or None,
+            tags=dados["tags"] or None,
+            featured_media=featured_media,
         )
-        if featured_media:
-            print(f"Imagem enviada. Media ID: {featured_media}")
-        else:
-            print("Aviso: publicacao seguira sem imagem destacada")
 
-    conteudo_final = inserir_imagem_inline(dados, featured_media, image_url)
+        post_id = int(post["id"])
+        edit_link = f"{wp_base_url()}/wp-admin/post.php?post={post_id}&action=edit"
+        public_link = str(post.get("link") or "")
 
-    post = criar_post(
-        titulo=dados["titulo"],
-        conteudo=conteudo_final,
-        excerpt=dados["excerpt"] or None,
-        status=dados["status"] or "pending",
-        category_ids=dados["category_ids"] or None,
-        tags=dados["tags"] or None,
-        featured_media=featured_media,
-    )
+        gravar_recibo(
+            {
+                "ok": True,
+                "post_id": post_id,
+                "titulo": dados["titulo"],
+                "status": str(post.get("status") or dados["status"]),
+                "edit_link": edit_link,
+                "public_link": public_link,
+                "featured_media_id": featured_media,
+                "categoria_ids": dados.get("category_ids") or "",
+                "tags": dados.get("tags") or "",
+            }
+        )
 
-    print("Post criado com sucesso")
-    print(f"ID: {post.get('id')}")
-    print(f"Status: {post.get('status')}")
-    print(f"Link: {post.get('link')}")
+        print("Post criado com sucesso")
+        print(f"ID: {post_id}")
+        print(f"Status: {post.get('status')}")
+        print(f"Link de edicao: {edit_link}")
+        print(f"Link publico: {public_link}")
+    except Exception as erro:
+        gravar_recibo(
+            {
+                "ok": False,
+                "titulo": dados.get("titulo", ""),
+                "status": "error",
+                "erro": str(erro),
+            }
+        )
+        raise
 
 
 if __name__ == "__main__":
