@@ -3,7 +3,11 @@ title: "Três testemunhas contestam versão da ICE sobre morte em Houston"
 excerpt: "Passageiros que estavam na van com Lorenzo Salgado Araujo afirmam que o agente federal atirou quase imediatamente após sair do carro e que o motorista nunca tentou atropelar ninguém."
 status: "draft"
 category_ids: "22"
-tags: "Estados Unidos, ICE, imigração, Houston, Texas, Donald Trump"
+tags: "ICE, imigração, Estados Unidos, Houston, Texas"
+
+image_url: "https://upload.wikimedia.org/wikipedia/commons/c/c6/111031.ICE.HSI.OperationPipelineExpress.herb_08.jpg"
+image_alt: "Agentes da ICE durante operação de fiscalização"
+image_caption: "Agentes da Imigração e Alfândega dos Estados Unidos (ICE) em operação — Foto: U.S. Immigration and Customs Enforcement / Paul Caffrey"
 ---
 
 <p>Três homens que estavam dentro da van com Lorenzo Salgado Araujo, morto por um agente da ICE em Houston no dia 7 de julho, contestam a versão oficial do Departamento de Homeland Security.</p>
