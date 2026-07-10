@@ -8,6 +8,13 @@ on:
       - "posts/entrada.md"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: publicador-cafezinho
+  cancel-in-progress: false
+
 jobs:
   publicar:
     runs-on: ubuntu-latest
@@ -15,6 +22,8 @@ jobs:
     steps:
       - name: Baixar repositorio
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -32,3 +41,25 @@ jobs:
           CAFEZINHO_WP_AUTHOR_ID: ${{ secrets.CAFEZINHO_WP_AUTHOR_ID }}
           R2_PUBLIC_BASE_URL: ${{ secrets.R2_PUBLIC_BASE_URL }}
         run: python publicar_arquivo.py
+
+      - name: Gravar recibo no GitHub
+        if: always()
+        shell: bash
+        run: |
+          if [ ! -f recibos/ultimo.json ]; then
+            echo "Nenhum recibo foi gerado."
+            exit 0
+          fi
+
+          git config user.name "cafezinho-publicador[bot]"
+          git config user.email "cafezinho-publicador[bot]@users.noreply.github.com"
+          git add recibos/ultimo.json recibos/*.json
+
+          if git diff --cached --quiet; then
+            echo "Recibo sem alteracoes."
+            exit 0
+          fi
+
+          git commit -m "chore: registra recibo de publicacao [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
