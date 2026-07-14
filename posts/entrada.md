@@ -1,35 +1,35 @@
 ---
-title: "Três testemunhas contestam versão da ICE sobre morte em Houston"
-excerpt: "Passageiros que estavam na van com Lorenzo Salgado Araujo afirmam que o agente federal atirou quase imediatamente após sair do carro e que o motorista nunca tentou atropelar ninguém."
+title: "O mundo precisa botar uma focinheira nos Estados Unidos"
+excerpt: "Trump transforma o Estreito de Ormuz em pedágio particular, ameaça o Tribunal Penal Internacional e só Lula teve coragem de chamar a pirataria pelo nome."
 status: "draft"
 category_ids: "22"
-tags: "ICE, imigração, Estados Unidos, Houston, Texas"
+tags: "Donald Trump, Estreito de Ormuz, Lula, Marco Rubio, TPI"
 
-image_url: "https://upload.wikimedia.org/wikipedia/commons/c/c6/111031.ICE.HSI.OperationPipelineExpress.herb_08.jpg"
-image_alt: "Agentes da ICE durante operação de fiscalização"
-image_caption: "Agentes da Imigração e Alfândega dos Estados Unidos (ICE) em operação — Foto: U.S. Immigration and Customs Enforcement / Paul Caffrey"
+image_url: "https://upload.wikimedia.org/wikipedia/commons/4/47/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%283x4_close_cropped%29.jpg"
+image_alt: "Retrato oficial do presidente Donald Trump"
+image_caption: "Retrato oficial do presidente Donald Trump — Foto: Casa Branca / domínio público"
 ---
 
-<p>Três homens que estavam dentro da van com Lorenzo Salgado Araujo, morto por um agente da ICE em Houston no dia 7 de julho, contestam a versão oficial do Departamento de Homeland Security.</p>
+<p>Donald Trump decidiu transformar o Estreito de Ormuz em pedágio particular.</p>
 
-<p>Eles afirmam que o agente atirou quase imediatamente depois de sair do próprio veículo e que, em nenhum momento, o motorista desviou na direção dele ou tentou atropelá-lo.</p>
+<p>Depois de atacar o Irã, ele anunciou que vai reabrir a passagem e cobrar 20% sobre o petróleo de cada navio que atravessar.</p>
 
-<p>O relato foi dado por meio de advogado ao jornal <em>Washington Post</em> e representa o primeiro contraponto direto de testemunhas oculares que estavam no carro.</p>
+<p>“Isso costumava se chamar pirataria”, disse Lula.</p>
 
-<p>A versão oficial da ICE diz que Lorenzo, mexicano de 52 anos, tentou evadir uma abordagem, bateu em um veículo da agência e “weaponized his vehicle” para tentar atropelar um agente, que teria atirado em legítima defesa.</p>
+<p>O presidente brasileiro foi o único líder de peso a chamar as coisas pelo nome. Enquanto a maior parte do mundo faz silêncio, Lula lembrou que os Estados Unidos passaram décadas combatendo a pirataria e agora se comportam exatamente como piratas.</p>
 
-<p>Os três passageiros, que também foram detidos, dizem que os veículos da ICE eram sem identificação e que Lorenzo ficou com medo ao ser seguido.</p>
+<p>Trump não se contenta em cobrar. Ele ainda exige reembolso dos países ricos da região. Arábia Saudita, Emirados, Catar, Kuwait. E se jacta de ter tomado a Venezuela, dizendo que agora os Estados Unidos têm mais petróleo que qualquer outro país do mundo.</p>
 
-<p>Segundo o filho de Lorenzo, Ronaldo Salgado, o pai trabalhava na construção civil há décadas, não tinha antecedentes criminais e estava em processo de obter permissão de trabalho legal.</p>
+<p>Ao mesmo tempo, o secretário de Estado Marco Rubio lança uma campanha aberta para desmantelar o Tribunal Penal Internacional. Pressão sobre países para sair do TPI, sanções, revogação de vistos de juízes e promotores. Tudo em nome da soberania americana.</p>
 
-<p>Ele disse que o pai teria parado imediatamente se tivesse visto qualquer emblema de autoridade.</p>
+<p>A hipocrisia é completa. Rubio afirma que nenhum país pode cobrar pedágio em águas internacionais. Exatamente o que Trump está fazendo no Ormuz.</p>
 
-<p>Os três homens que estavam na van são Victor Hugo Salgado Araujo, irmão de Lorenzo, além de Daniel Tirado Pantoja e Jose Trinidad Rojas Pliego.</p>
+<p>A imprensa americana e boa parte da europeia trata o assunto como se fosse normalidade. Trump fala em cobrar 20% e a cobertura segue como se fosse mais uma declaração extravagante do presidente.</p>
 
-<p>Eles permanecem detidos pela ICE. Familiares e a organização LULAC relatam que os homens estariam sendo pressionados a assinar documentos de auto-deportação.</p>
+<p>Não é. É uma ruptura aberta com o direito internacional e com a liberdade de navegação que os próprios Estados Unidos sempre defenderam quando convinha.</p>
 
-<p>Não há imagens de bodycam do momento do tiro. Agentes do escritório da ICE em Houston ainda não estavam equipados com câmeras corporais.</p>
+<p>Para o Brasil, o impacto é direto. Qualquer aumento no preço do petróleo no Golfo chega aqui na bomba e na conta de luz. O consumidor brasileiro paga a conta da pirataria americana.</p>
 
-<p>A morte de Lorenzo Salgado Araujo gerou protestos em Houston e pedidos de investigação independente por parte da família, de congressistas democratas e de grupos de direitos civis.</p>
+<p>Lula fez o que cabia a um presidente de um país soberano. Nomeou a coisa. Chamou de pirataria. Recusou a normalização.</p>
 
-<p>O Departamento de Homeland Security e o FBI investigam o caso. Até o momento, não foram divulgadas imagens oficiais do instante em que os disparos ocorreram.</p>
+<p>O resto do mundo ainda precisa decidir se aceita viver sob a lei do mais forte ou se coloca uma focinheira no império que agora rouba à luz do dia.</p>
