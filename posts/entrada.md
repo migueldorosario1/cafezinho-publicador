@@ -1,6 +1,6 @@
 ---
 title: "O mundo precisa botar uma focinheira nos Estados Unidos"
-excerpt: "Trump transforma o Estreito de Ormuz em pedágio particular, exige reembolso dos países ricos do Golfo, ameaça o Tribunal Penal Internacional e só Lula teve coragem de chamar a pirataria pelo nome."
+excerpt: "Donald Trump resolveu atacar a humanidade inteira. A reincidência da guerra e dos ataques ao Irã, em violação aberta ao acordo de cessar-fogo, não é responsabilidade do Irã. Foi Trump quem rompeu as cláusulas do memorando de paz que ele próprio assinou."
 status: "draft"
 category_ids: "22"
 tags: "Donald Trump, Estreito de Ormuz, Lula, Marco Rubio, TPI"
@@ -10,38 +10,32 @@ image_alt: "Retrato oficial do presidente Donald Trump"
 image_caption: "Retrato oficial do presidente Donald Trump — Foto: Casa Branca / domínio público"
 ---
 
-<p>Donald Trump decidiu transformar o Estreito de Ormuz em pedágio particular.</p>
+<p>Donald Trump resolveu atacar a humanidade inteira.</p>
 
-<p>Depois de os Estados Unidos atacarem mais de 140 alvos no Irã e o país ter fechado a passagem, Trump anunciou que vai reabrir o estreito. Mas só sob uma condição: o dono do petróleo de cada navio que passar terá que pagar 20% a ele.</p>
+<p>A reincidência da guerra e dos ataques ao Irã, em violação aberta ao acordo de cessar-fogo, não é responsabilidade do Irã. Foi Trump quem rompeu as cláusulas do memorando de paz que ele próprio assinou.</p>
 
-<p>“Isso costumava se chamar pirataria”, disse Lula.</p>
+<p>O documento, firmado com o presidente iraniano e testemunhado por vários países, estabelecia que o Estreito de Ormuz seria monitorado pelo Irã. Nos primeiros meses não haveria cobrança de taxa. Depois, eventualmente, uma taxa simbólica de 1% ou 2% para cobrir os custos de monitoramento. A cláusula número um era clara: nenhum país faria ameaça ao outro.</p>
 
-<p>O presidente brasileiro foi direto. Um país que passou décadas combatendo a pirataria agora se comporta exatamente como pirata. O estreito não é propriedade dos Estados Unidos e ninguém tem o direito de cobrar pedágio sobre ele.</p>
+<p>No dia seguinte à assinatura, Trump já recomeçou a ameaçar o Irã. Rompeu o acordo que ele mesmo havia assinado. A mídia ocidental, inclusive boa parte da brasileira, continua cúmplice quando omite essa verdade elementar.</p>
 
-<p>Lula foi além. Lembrou que os Estados Unidos mentiram sobre as armas nucleares do Irã da mesma forma que mentiram sobre as armas de destruição em massa no Iraque. Provocaram a guerra e agora querem lucrar com a passagem que eles mesmos ajudaram a bloquear.</p>
+<p>Agora o secretário de Estado Marco Rubio ameaça o Tribunal Penal Internacional. Em postagem do Drop Site News, fica registrado que o Departamento de Estado anunciou uma campanha para “desmantelar” o que chama de ameaça do TPI à soberania americana. As medidas incluem pressionar países a saírem do tribunal, impor restrições a quem apoia o TPI, cassar vistos de funcionários e ampliar sanções.</p>
 
-<p>Trump não se contenta em cobrar o pedágio. Ele ainda exige reembolso dos países ricos da região. Arábia Saudita, Emirados Árabes Unidos, Catar, Kuwait e até Israel. Diz que os Estados Unidos protegem todos eles e que é justo serem reembolsados.</p>
+<p>Kenneth Roth, ex-diretor da Human Rights Watch, foi direto. Rubio está vestindo com a linguagem da soberania nacional o desejo de impunidade para crimes de guerra americanos no exterior. O tribunal não está reivindicando jurisdição sobre atos ocorridos dentro dos Estados Unidos. Está apenas afirmando o direito soberano de outros países de processar crimes cometidos em seu território.</p>
 
-<p>E se jacta da Venezuela. “Quando se adiciona a Venezuela, que tem sido incrível, não precisamos deles. Temos mais petróleo que qualquer outro país do mundo”, afirmou o presidente americano.</p>
+<p>O TPI não é perfeito. Seus erros mais graves ocorreram quando se curvou às pressões de Washington e aos vícios imperialistas europeus. Mas continua sendo um dos braços do multilateralismo. É a única forma de construir uma ordem internacional baseada em leis, e não na lei do mais forte, na anarquia violenta e bárbara que os Estados Unidos parecem querer impor ao planeta.</p>
 
-<p>Ao mesmo tempo, o secretário de Estado Marco Rubio lança uma campanha aberta para desmantelar o Tribunal Penal Internacional.</p>
+<p>Não faz mais sentido falar em aliados e inimigos. Essa lógica maniqueísta americana sempre foi ridícula. O mundo precisa caminhar para uma grande aliança global em que todos os países comercializem entre si, sem inimigos artificiais. Mesmo que se aceite por um instante a lógica infantil de amigos e inimigos, Trump está cuspindo na cara dos próprios “aliados”.</p>
 
-<p>A lista de medidas é longa. Pressionar países a se retirarem do TPI. Exigir que aliados rejeitem a jurisdição do tribunal sobre americanos. Aumentar a fiscalização sobre nações que apoiam o tribunal e ainda recebem ajuda americana. Coordenar com países de fora do TPI. Revogar vistos e impor proibições de viagem a juízes e promotores. Expandir sanções contra o próprio tribunal e organizações ligadas a ele.</p>
+<p>Ele agora quer cobrar 20% de taxa sobre cada navio que passar pelo Estreito de Ormuz. É um insulto aberto. Quem vai pagar essa conta são bilhões de pessoas que passarão fome nos próximos anos, porque o preço dos fertilizantes já está subindo.</p>
 
-<p>Rubio fala em nome da soberania americana. Mas a hipocrisia é completa. No mesmo período ele declara, em tom solene, que “nenhum país tem permissão de cobrar pedágio em uma via internacional. Isso é direito internacional. É assim em todo o mundo”.</p>
+<p>O presidente Lula é, neste momento, a única liderança internacional que está peitando Trump de frente. Em discurso recente, Lula foi claro:</p>
 
-<p>Exatamente o que Trump está fazendo no Estreito de Ormuz.</p>
+<p>“Trump fez um post dizendo que reabriria o Estreito de Ormuz, mas que cada navio que ele deixar passar o dono do petróleo teria que pagar 20%. Isso se chamava pirataria, não era? Um país tão importante como os Estados Unidos, que passou tanto tempo combatendo a pirataria, não pode agora se tornar um pirata. Ele não deveria cobrar por isso, porque o estreito não é responsabilidade dele.”</p>
 
-<p>Jeremy Scahill resumiu a contradição de forma precisa. Trump agora reivindica o controle do estreito e a cobrança de taxas. Lembrem-se disso na próxima vez que um oficial americano chamar de ultraje ilegal a mera sugestão do Irã de fazer a mesma coisa.</p>
+<p>As lideranças políticas brasileiras precisam entender o papel do Brasil nesse momento. O mundo não pode mais se ajoelhar. O Irã não se ajoelha. A Rússia não se ajoelha. O Brasil também não pode se ajoelhar a esse gangster internacional.</p>
 
-<p>Kenneth Roth, ex-diretor da Human Rights Watch, também apontou o óbvio. O TPI não está reivindicando jurisdição sobre condutas dentro dos Estados Unidos. Rubio está apenas vestindo de “soberania” a busca por impunidade para crimes de guerra americanos no exterior.</p>
+<p>Trump está prejudicando diretamente os brasileiros. A guerra insana no Oriente Médio eleva o preço da gasolina e do diesel no Brasil. Isso se transforma em aumento do arroz e do feijão na mesa do trabalhador.</p>
 
-<p>A imprensa americana e boa parte da europeia trata tudo isso como se fosse mais uma extravagância do presidente. Trump fala em cobrar 20% e a cobertura segue o ritmo normal de noticiário.</p>
+<p>A humanidade está diante de uma escolha moral. O mínimo que o Brasil pode fazer agora é marcar com clareza esse verme entreguista que é Flávio Bolsonaro e o movimento que ele lidera. Vencida a eleição de outubro, o Brasil precisa avançar na construção de uma ordem internacional multipolar e colocar uma focinheira nos Estados Unidos.</p>
 
-<p>Não é normal. É uma ruptura aberta com o direito internacional e com o princípio da liberdade de navegação que os próprios Estados Unidos sempre usaram como bandeira quando lhes convinha.</p>
-
-<p>Para o Brasil o impacto é direto e imediato. Qualquer aumento no preço do petróleo no Golfo chega aqui na bomba, na conta de luz e no preço dos alimentos. O consumidor brasileiro paga a conta da pirataria americana.</p>
-
-<p>Enquanto a maior parte dos governos prefere o silêncio, Lula fez o que cabia a um presidente de um país soberano. Nomeou a coisa. Chamou de pirataria. Recusou a normalização.</p>
-
-<p>O resto do mundo ainda precisa decidir de que lado está. Se aceita viver sob a lei do mais forte ou se coloca, de uma vez por todas, uma focinheira no império que agora rouba à luz do dia.</p>
+<p>Porque o que se tornou os Estados Unidos de Trump é uma besta selvagem, descontrolada, perigosa e raivosa. A humanidade precisa controlá-la.</p>
