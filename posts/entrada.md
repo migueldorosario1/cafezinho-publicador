@@ -1,38 +1,32 @@
 ---
-title: "Marília Arraes assume comando do PDT em Pernambuco"
-excerpt: "Pré-candidata ao Senado participou da convenção nacional do partido em Brasília, ao lado de Lula, e passou a integrar o diretório nacional da legenda."
+title: "The Economist: ataque de Trump ao Pix só faz brasileiros amarem mais o sistema e beneficia Lula"
+excerpt: "A revista britânica desmonta os argumentos da administração americana e afirma que a ofensiva tarifária virou presente eleitoral para o presidente."
 status: "draft"
 category_ids: "22"
-tags: "Marília Arraes, PDT, Lula, Pernambuco, eleições 2026"
-image_url: "https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2026/07/20/whatsapp_image_2026_07_20_at_20_49_27-36928438.jpeg?ims=800x533"
-image_alt: "Marília Arraes e o presidente Lula durante convenção nacional do PDT em Brasília"
-image_caption: "Marília Arraes e Lula durante a convenção nacional do PDT, em Brasília — Foto: Igor Vilaça"
+tags: "Pix, Trump, Lula, Flávio Bolsonaro, The Economist, Banco Central"
+image_url: "https://pbs.twimg.com/media/HOMLv4hWwAACWPl.jpg"
+image_alt: "Capa da matéria da The Economist sobre o Pix e o ataque de Trump"
+image_caption: "Matéria da The Economist sobre o Pix e a ofensiva de Trump — Foto: reprodução"
 ---
 
-<p>A pré-candidata ao Senado por Pernambuco Marília Arraes participou, na segunda-feira (20), da convenção nacional do PDT em Brasília, ao lado do presidente Luiz Inácio Lula da Silva.</p>
+<p>A revista britânica The Economist publicou um artigo analisando o ataque do governo de Donald Trump ao Pix.</p>
 
-<p>Durante o encontro, Marília assumiu o comando estadual do partido em Pernambuco e passou a integrar o diretório nacional da legenda.</p>
+<p>O texto aponta que a ofensiva tarifária de 25% sobre importações brasileiras, justificada em parte pelo sistema de pagamentos, acabou reforçando o orgulho nacional em torno do Pix e beneficiando politicamente o presidente Lula.</p>
 
-<p>O evento marcou também a formalização do apoio do PDT à candidatura de Lula à reeleição em 2026. A sigla foi a primeira a anunciar oficialmente a aliança nacional com o presidente durante o período legal das convenções partidárias.</p>
+<p>Lançado pelo Banco Central em 2020, o Pix é usado por cerca de 170 milhões de pessoas, ou 80% da população, e responde por mais da metade das transações de pagamento no país.</p>
 
-<p>Na saudação de abertura, Marília destacou a decisão do partido de apoiar Lula desde o início da disputa.</p>
+<p>Segundo a revista, as críticas americanas de que o Pix seria protecionista ou prejudicaria empresas como Visa e Mastercard não encontram respaldo em evidências.</p>
 
-<p>“O PDT é o primeiro partido a declarar, já na abertura do prazo legal das convenções, o apoio nacional ao presidente Lula. E isso é um compromisso de quem conhece e luta pelo Brasil e pelos brasileiros”, afirmou.</p>
+<p>As regras do sistema não distinguem entre instituições brasileiras e estrangeiras. Qualquer banco licenciado no Brasil pode se conectar nas mesmas condições.</p>
 
-<p>Segundo Marília, o partido pretende atuar de forma integrada à campanha presidencial e fortalecer sua presença no Congresso Nacional.</p>
+<p>O Pix expandiu o mercado de pagamentos eletrônicos às custas do dinheiro em espécie e dos cheques. O número de saques em dinheiro caiu 46% desde a introdução do sistema.</p>
 
-<p>O PDT aposta em candidaturas femininas ao Senado e à Câmara dos Deputados. Entre os nomes destacados pela direção partidária estão Marília Arraes, em Pernambuco; Martha Rocha, no Rio de Janeiro; Juliana Brizola, no Rio Grande do Sul; e Leila Barros, no Distrito Federal.</p>
+<p>A publicação observa que o maior beneficiário da campanha de Trump pode ser Lula. Em um país polarizado, o Pix goza de amplo apoio e a ofensiva americana permitiu ao presidente se apresentar como defensor de uma inovação pública de sucesso e da soberania nacional.</p>
 
-<p>Durante a convenção, Lula agradeceu o apoio da legenda e defendeu a unidade das forças progressistas nas eleições.</p>
+<p>Isso deixa Flávio Bolsonaro em posição embaraçosa por causa da aliança da família com Trump. Em julho, ele sugeriu bloquear conexões do Pix com sistemas de China e Rússia, o que levou Lula a acusá-lo de querer entregar o sistema a interesses estrangeiros.</p>
 
-<p>“Nós temos vários traidores que vão aos Estados Unidos pedir para os Estados Unidos impor punição ao Brasil. Não há possibilidade de a gente permitir que a democracia sofra mais um arranhão como sofreu no golpe contra Dilma Rousseff, em 2016”, declarou o presidente.</p>
+<p>Até agora, conclui a The Economist, a campanha americana contra o Pix só deu aos brasileiros mais um motivo para amar o seu sistema de pagamentos.</p>
 
-<p>Também participaram do evento o presidente nacional do PT, Edinho Silva, e os ministros Waldez Góes, da Integração e Desenvolvimento Regional, e Wolney Queiroz, da Previdência Social.</p>
+<p>A tradução completa do artigo foi publicada pelo internauta @Boscardin. Quem quiser ler a íntegra pode acessar o fio em sua conta:</p>
 
-<p><strong>Fonte:</strong> com informações da Folha de Pernambuco e do Jornal do Commercio.</p>
-
-<p><strong>Categoria:</strong> política</p>
-
-<p><strong>Autor:</strong> Redação</p>
-
-<p><strong>Tags:</strong> Marília Arraes, PDT, Lula, Pernambuco, eleições 2026</p>
+<p>https://x.com/Boscardin/status/2081528558329921732</p>
