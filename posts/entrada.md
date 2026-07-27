@@ -4,9 +4,9 @@ excerpt: "A revista britânica desmonta os argumentos da administração america
 status: "draft"
 category_ids: "22"
 tags: "Pix, Trump, Lula, Flávio Bolsonaro, The Economist, Banco Central"
-image_url: "https://pbs.twimg.com/media/HOMLv4hWwAACWPl.jpg"
-image_alt: "Capa da matéria da The Economist sobre o Pix e o ataque de Trump"
-image_caption: "Matéria da The Economist sobre o Pix e a ofensiva de Trump — Foto: reprodução"
+image_url: "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg"
+image_alt: "Retrato oficial do presidente Donald Trump"
+image_caption: "Retrato oficial do presidente Donald Trump — Foto: Daniel Torok / Casa Branca"
 ---
 
 <p>A revista britânica The Economist publicou um artigo analisando o ataque do governo de Donald Trump ao Pix.</p>
