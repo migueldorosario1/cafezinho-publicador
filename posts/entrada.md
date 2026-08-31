@@ -1,118 +1,108 @@
 ---
-title: "deputada argentina escreve carta a lula e pede desculpas em nome do seu povo"
-excerpt: "Marcela Pagano, da Câmara dos Deputados da Argentina, publica carta aberta pedindo desculpas pelos ataques de Javier Milei e defende a integração histórica entre os dois países."
+title: "Após derrota no Chile, Boric critica o fanatismo da modação"
+excerpt: "Fora do Palácio de La Moneda, Gabriel Boric diz que o fanatismo pela modação não leva a lugar nenhum. Vijay Prashad responde que a esquerda moderada entrega o poder governamental sem construir poder social da classe trabalhadora."
 status: "draft"
 category_ids: "22"
-tags: "Marcela Pagano, Lula, Argentina, Javier Milei, diplomacia, Mercosul, carta"
-image_url: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Marcela_Pagano_HCDN.png"
-image_alt: "Retrato oficial da deputada argentina Marcela Pagano"
-image_caption: "Deputada Marcela Pagano — Foto: Câmara dos Deputados da Argentina"
+tags: "Gabriel Boric, Chile, modação, ideologia"
+image_url: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Gabriel_Boric_2026_%28cropped%29.jpg"
+image_alt: "O ex-presidente do Chile Gabriel Boric em janeiro de 2026"
+image_caption: "Gabriel Boric em janeiro de 2026, ainda na Presidência — Foto: Governo do Chile"
 ---
 
-<p>A deputada argentina Marcela Pagano publicou neste domingo (26) uma carta aberta ao presidente Lula pedindo desculpas em nome de uma parcela do povo argentino pelos recentes ataques do presidente Javier Milei contra o Brasil e o próprio Lula.</p>
+<p>O ex-presidente do Chile Gabriel Boric deixou o Palácio de La Moneda em março deste ano, depois que a direita de José Antonio Kast venceu a eleição e encerrou o ciclo aberto pelo estallido social. Fora do governo, ele voltou à palavra pública com uma frase que atravessou o continente: o fanatismo pela modação, no fim, não leva a lugar nenhum.</p>
 
-<p>A carta surge após Milei ter usado termos duros durante visita ao Brasil e encontro com Flávio Bolsonaro. Pagano, que integra o bloco Coerência na Câmara argentina, diferencia o Estado argentino do governo atual e faz um longo apelo pela preservação da relação histórica entre os dois países.</p>
+<p>A declaração foi dada ontem num conversatório em La Huella de Seregni, no Uruguai, no relançamento da revista Nueva Sociedad. Ao lado da senadora do Frente Amplio Constanza Moreira, Boric convocou as correntes de esquerda a defender com orgulho as próprias posições.</p>
 
-<p>No texto, ela lembra momentos-chave da aproximação, como o apoio brasileiro à Argentina na Guerra das Malvinas em 1982, o encontro de Alfonsín e Sarney em Foz do Iguaçu em 1985, a criação da ABACC e o nascimento do Mercosul. Também destaca a importância econômica: o Brasil é o principal destino das exportações industriais argentinas.</p>
+<p>O jornal uruguaio que registrou o encontro resumiu o recado. A esquerda da região, disse o ex-mandatário, não pode assumir como próprio o afundamento moral que a direita tenta impor.</p>
 
-<p>A seguir, a íntegra da carta:</p>
+<p>Boric governou o Chile entre 2022 e 2026. Entrou como símbolo de uma geração que saiu das ruas e chegou ao Estado. Saiu com a direita de volta ao poder e com o debate aberto sobre o preço pago pela contenção.</p>
 
-<p>Buenos Aires, 26 de julho de 2026</p>
+<p>A frase sobre a modação não caiu no vazio. O historiador e jornalista indiano Vijay Prashad, diretor do Instituto Tricontinental, republicou o recorte e escreveu que Boric tem razão.</p>
 
-<p>Ao Excelentíssimo Senhor Presidente da República Federativa do Brasil<br>Senhor Luiz Inácio Lula da Silva<br>Palácio do Planalto — Brasília, D.F.</p>
+<p>Ser centrista e moderado, disse Prashad, acomodar-se tanto ao sistema capitalista, deixa a esquerda e o centro-esquerda incapazes de usar o poder governamental para construir o bloco histórico da classe trabalhadora. Sem esse bloco, o governo não vira raiz social.</p>
 
-<p>Senhor Presidente:</p>
+<p>Prashad antecipou um dossiê do Tricontinental para o ano que vem sobre três formas de poder. Poder social, poder governamental e poder estatal não são a mesma coisa, e a esquerda costuma perder a distinção quando entra no Palácio.</p>
 
-<p>Escrevo-lhe na minha condição de Deputada da Nação Argentina, isto é, como integrante de um dos três poderes do Estado que, em nosso sistema republicano, expressa de maneira direta e imediata a vontade do povo. Não falo em nome do Estado argentino: a condução das relações exteriores cabe ao Poder Executivo, e não pretendo usurpar qualquer competência. Falo em nome da parcela do povo argentino que me confiou sua representação e atrevo-me a dizer, em nome de uma maioria silenciosa que viu com vergonha e dor a forma como, nos últimos tempos, foi tratada a nação amiga que o senhor preside.</p>
+<p>O problema não é chileno. É um desafio da esquerda no mundo inteiro. A direita não enfrenta a mesma oposição estrutural que a esquerda enfrenta.</p>
 
-<p>Venho lhe pedir desculpas.</p>
+<p>O grande capital não quer saber de projeto de esquerda. Quer concentração de capital e concentração de poder. A esquerda entra no jogo como contraforça a essa máquina.</p>
 
-<p>Faço isso com o desconforto de quem pede desculpas por algo que não cometeu, mas com a convicção de que há silêncios que acabam se tornando consentimento. Um país que se cala diante da ofensa feita em seu nome torna-se, com o tempo, autor dessa ofensa. Não é o meu caso, e não quero que seja o da Argentina.</p>
+<p>Por isso ela se sente obrigada a se moderar. Não porque a modação seja uma virtude natural, mas porque ainda não ganhou a luta de ideias.</p>
 
-<p>I. A distinção que nossos povos sempre souberam fazer</p>
+<p>A luta de ideias continua em curso. E a esquerda tem dificuldade de vencê-la porque o dinheiro compra ideias, compra a mídia e compra os grandes aparelhos de comunicação no mundo inteiro.</p>
 
-<p>Permita-me começar pelo essencial. Um Estado não é um governo, e um governo não é um homem. As nações são entidades históricas: duram mais que os mandatos, mais que as conjunturas e, certamente, mais que os destemperos.</p>
+<p>Quem controla o alto-falante define o que parece razoável. O que parece razoável, no vocabulário do capital, é quase sempre o recuo.</p>
 
-<p>O que foi dito não representa a República Argentina. Não representa a sua tradição diplomática, uma das mais antigas e respeitadas do continente. Não representa a sua Chancelaria, seu Congresso, suas províncias de fronteira, seus industriais, suas universidades nem as suas famílias. Representa um homem em um determinado momento. É lamentável — digo isso sem rodeios — o papel institucional que o Presidente da Nação Argentina desempenhou nesse episódio, porque a investidura não é propriedade de quem a exerce: é um empréstimo que o povo faz e que exige moderação.</p>
+<p>Boric descreveu esse recuo com uma imagem simples. Corremos o risco, por querer capturar a atenção no menor tempo possível, de deixar de defender as ideias nas quais realmente acreditamos e de nos deixar levar pela onda do momento, disse.</p>
 
-<p>Mas também sei, Senhor Presidente, que o senhor conhece essa distinção melhor do que ninguém. O senhor foi operário antes de ser presidente; conheceu a fome antes dos palácios; conheceu a prisão e dela saiu sem rancor para governar para todos. Percorreu o mundo e a história em medida suficiente para não confundir uma ofensa pessoal com uma política de Estado.</p>
+<p>Parece que a esquerda esteve perdida, acrescentou. Isso não significa deixar de existir. Significa perguntar como voltar a encontrar o caminho.</p>
 
-<p>II. Da rivalidade à fraternidade: duzentos anos de aprendizado</p>
+<p>Ele insistiu que o mundo não parte do zero em cada geração. Os movimentos precisam compreender o impacto dos próprios processos históricos.</p>
 
-<p>Nossa amizade não foi um presente da geografia. Foi uma construção trabalhosa e, justamente por isso, tem valor.</p>
+<p>É possível um mundo melhor, disse. Não podemos nos limitar a apontar tudo o que está errado.</p>
 
-<p>Nascemos em lados opostos. Fomos as fronteiras móveis de dois impérios que disputaram durante séculos a foz do Prata: desde Tordesilhas até a fundação da Colônia do Sacramento, desde o Tratado de Madri até as campanhas na Banda Oriental. Fomos, depois da independência, adversários em uma guerra que terminou, em 1828, com a criação de um Estado-tampão entre ambos. E também compartilhamos a memória incômoda de uma aliança bélica sobre a qual a história americana tem sido severa — e com razão.</p>
+<p>O discurso, segundo ele, não pode ser principalmente catastrofista. Em contraposição à direita, os movimentos de esquerda seriam capazes de pensar o futuro de maneira positiva.</p>
 
-<p>Entrado o século XX, a rivalidade assumiu a forma de uma corrida naval: o Brasil lançou seus encouraçados, e a Argentina respondeu com os seus. Dois países pobres, com povos que careciam de escolas e hospitais, gastando fortunas em blindagens destinadas a apontar umas para as outras. É a imagem mais eloquente do que acontece quando duas nações irmãs escolhem a desconfiança.</p>
+<p>A advertência veio em seguida. O fanatismo pela modação, no final, não leva a nenhuma parte.</p>
 
-<p>E então começamos a aprender.</p>
+<p>A frase tem o gosto amargo de quem governou e sentiu o teto. Modernizar o Estado para atender com mais agilidade os requerimentos da cidadania, disse Boric, não pode significar perder a base social e a rebeldia.</p>
 
-<p>Aprendemos em 1979, quando a disputa pelo aproveitamento do rio Paraná — Itaipu e Corpus —, que durante anos pareceu insolúvel, encontrou seu caminho no Acordo Tripartite. Dois países que discutiam a água descobriram que a energia compartilhada rendia mais do que o litígio.</p>
+<p>Ele citou como exemplo o atual governo do prefeito de Nova York, o socialista do Partido Democrata Zohran Mamdani. O ponto não era a geografia. Era a tensão entre administração e ruptura.</p>
 
-<p>Aprendemos em 1982, e nós, argentinos, não esquecemos nem esqueceremos jamais. Quando a Argentina rompeu relações com o Reino Unido, foi a República Federativa do Brasil que assumiu a representação dos interesses argentinos em Londres. Na hora mais sombria da nossa história contemporânea, quando enterrávamos nossos filhos no Atlântico Sul, o Brasil esteve ao nosso lado. Não com declarações: com fatos. Há dívidas que um país nunca quita, e essa é uma delas. Eu a reconheço hoje, em nome dos que a lembram e dos que a ignoram.</p>
+<p>O importante não é que sigamos sendo os mesmos convencidos, afirmou. É preciso estreitar laços com as gerações mais jovens e com a classe trabalhadora.</p>
 
-<p>Aprendemos, sobretudo, em 1985. Quando ambas as nações recuperaram as suas democracias, Raúl Alfonsín e José Sarney encontraram-se em Foz do Iguaçu, sobre a ponte que leva o nome de Tancredo Neves, e assinaram a Declaração que deu início à integração. Aquilo não foi um acordo comercial: foi uma decisão civilizatória. Dois países que haviam passado um século e meio medindo forças decidiram que a sua segurança nunca mais dependeria da fraqueza do outro.</p>
+<p>Também é preciso participar da transformação dos modelos produtivos, com atenção aos limites planetários. Sem isso, a fala sobre o futuro vira folheto.</p>
 
-<p>Dali surgiu o Programa de Integração e Cooperação Econômica de 1986, o Tratado de Integração, Cooperação e Desenvolvimento de 1988 e uma obra que o mundo inteiro estuda e que nenhum outro par de nações conseguiu realizar: a Agência Brasileiro-Argentina de Contabilidade e Controle de Materiais Nucleares (ABACC). Dois Estados com programas nucleares avançados renunciaram voluntariamente à desconfiança mútua e se abriram à inspeção recíproca. Ninguém nos impôs isso. Nós decidimos. Em um planeta que hoje volta a falar a linguagem da proliferação e da ameaça, a ABACC continua sendo o melhor argumento moral que a América do Sul pode apresentar ao mundo.</p>
+<p>É tremendamente importante não nos convertermos, ao virarmos autoridades, naquilo que sempre dissemos que não queremos ser, advertiu. Manter consistência entre o discurso e o agir, disse, é simplesmente coerência.</p>
 
-<p>E dali surgiu, em 1991, o Tratado de Assunção. O Mercosul, com todas as suas imperfeições — que são muitas e que, como legisladora, não me cabe dissimular —, é a tradução institucional de uma ideia simples: o destino dos nossos povos se decide junto, ou não se decide.</p>
+<p>Constanza Moreira empurrou o debate para o lugar em que a modação costuma se esconder. É preciso sair dessa prisão para a política que é a economia, afirmou.</p>
 
-<p>Esse é o patrimônio, Senhor Presidente. Duzentos anos para passar dos encouraçados às inspeções recíprocas. Nenhuma frase pronunciada no calor de um momento pode ter autoridade para dilapidá-lo.</p>
+<p>Um dos triunfos do liberalismo, segundo a senadora, foi ter encerrado a política na cárcere da economia. Enquanto a política aceitar esse cárcere, a esquerda governa o restante.</p>
 
-<p>III. Porque somos parceiros: a economia dos fatos</p>
+<p>Moreira descreveu o longo ciclo do progressismo latino-americano como uma escola impressionante para os movimentos que dele participaram. Destacou o sindical, o feminista e o estudantil como fábricas de ação coletiva do pensamento de esquerda.</p>
 
-<p>Quem acredita que as relações internacionais são uma questão de simpatias ideológicas jamais examinou uma planilha de comércio exterior.</p>
+<p>Em linha com Boric, disse que a esquerda aprende muito mais com seus fracassos do que com suas vitórias. O aprendizado, porém, não serve se vira álibi para o recuo permanente.</p>
 
-<p>O Brasil é o principal parceiro comercial da Argentina. Não um entre muitos: o primeiro.</p>
+<p>Ela considerou horrível o fato de a direita estar vivendo seu melhor momento neste século. A retórica do medo, afirmou, é a retórica que fez as direitas triunfarem.</p>
 
-<p>Nosso intercâmbio bilateral é medido em dezenas de bilhões de dólares anuais e sustenta uma rede produtiva que nenhuma outra relação externa consegue reproduzir.</p>
+<p>A senadora vinculou esse triunfo à falta de um modelo alternativo por parte da esquerda. Sem horizonte próprio, sobra o medo alheio.</p>
 
-<p>E aqui está o ponto decisivo, aquilo que distingue o Brasil de todos os demais destinos: é o mercado que compra da Argentina aquilo que a Argentina fabrica. Para outros mercados vendemos grãos, minerais e energia; bens valiosos, mas que não exigem operários qualificados, engenheiros nem cadeias de fornecedores. Ao Brasil vendemos automóveis, autopeças, máquinas agrícolas, produtos químicos e plásticos, alimentos industrializados, medicamentos. Vendemos, em suma, trabalho argentino com valor agregado.</p>
+<p>O exemplo que ela escolheu se repete nas eleições da região. É o debate da segurança pública, transformado em pânico permanente e em programa de governo da direita.</p>
 
-<p>A indústria automobilística é o exemplo mais evidente: a esmagadora maioria dos veículos que a Argentina exporta tem um único destino, e esse destino é o Brasil. Cada operário de Córdoba, Zárate, El Palomar ou Santa Fé tem seu emprego ligado a essa corrente. Quando a relação bilateral esfria, não é uma abstração diplomática que esfria: esfriam linhas de montagem, desligam-se turnos, esvaziam-se os refeitórios das fábricas.</p>
+<p>Moreira propôs apostar nas paixões alegres como elemento de mobilização. A apatia e o nojo, disse, tiram capacidade de mobilização.</p>
 
-<p>E trata-se de um comércio de mão dupla. A Argentina também é um mercado central para a indústria brasileira, para sua produção de bens de capital e de consumo durável. Somos, um para o outro, aquilo que nenhum parceiro extrarregional pode ser: o cliente que compra manufaturas, o vizinho que compra trabalho.</p>
+<p>É o quadro de um capitalismo que gera uma frustração infinita. À direita se resiste, sublinhou.</p>
 
-<p>A isso se somam a passagem fronteiriça terrestre mais movimentada da América do Sul, em Paso de los Libres-Uruguaiana; uma integração energética construída ao longo de décadas; e o fato, nada desprezível, de que os argentinos são, ano após ano, o principal contingente de visitantes estrangeiros do Brasil, enquanto milhões de brasileiros escolhem nossas montanhas e nossas cidades.</p>
+<p>O que o Uruguai teria de mais bonito para oferecer ao mundo, segundo ela, é a lição de como juntou tudo e armou o grande crisol das esquerdas. Essa hibridação, disse, é a solução para os nossos problemas.</p>
 
-<p>IV. E por que, além disso, somos irmãos</p>
+<p>A crítica de Prashad corta o otimismo pela raiz. A classe trabalhadora precisa ser armada de instrumentos para defender seus interesses.</p>
 
-<p>Mas seria mesquinho reduzir tudo isso a um balanço comercial. Há algo que vem antes dos números.</p>
+<p>A modação da esquerda enfraquece esses instrumentos. Em algum momento, fortalece a direita porque não oferece às bases a velocidade de organização que o capital já possui.</p>
 
-<p>Há famílias argentinas com sobrenomes brasileiros e famílias brasileiras com sobrenomes argentinos. Há médicos formados em nossas universidades atendendo no Brasil e estudantes brasileiros que se graduam em Buenos Aires, Córdoba e La Plata. Há uma fronteira de mais de mil quilômetros onde a nacionalidade se dilui no cotidiano, onde o chimarrão cruza em uma direção e o café na outra. Há uma música que atravessou o rio sem pedir licença a ninguém. Há uma rivalidade futebolística que é, na verdade, a forma mais honesta e mais alegre que dois povos encontraram para dizer que precisam um do outro.</p>
+<p>O capital não pede licença para se concentrar. Compra veículos, partidos, think tanks, plataformas e pauta o que entra no noticiário como senso comum.</p>
 
-<p>Não há dois países no mundo que compitam com tanta paixão e, ao mesmo tempo, se queiram com tanta naturalidade.</p>
+<p>A esquerda que aceita esse senso comum como teto da política entrega o poder governamental sem ter construído poder social. Governa o Estado que herdou e perde o Estado que prometeu transformar.</p>
 
-<p>V. O pedido</p>
+<p>Boric falou em defender a política como ferramenta de transformação social. A frase só tem sentido se a transformação não for adiada até o calendário eleitoral seguinte.</p>
 
-<p>Por isso, Senhor Presidente, este é o coração da minha carta.</p>
+<p>O Chile de 2026 mostra o custo do adiamento. Kast assumiu em 11 de março com agenda de ordem, economia e imigração, e a esquerda saiu do Palácio para explicar o próprio recuo.</p>
 
-<p>Peço-lhe desculpas em nome dos argentinos e das argentinas que não se reconhecem nessas palavras, e que são muito mais numerosos do que se imagina.</p>
+<p>Não é um drama exclusivo de Santiago. É o mesmo dilema que atravessa governos progressistas na América Latina e coalizões social-democratas na Europa.</p>
 
-<p>E peço-lhe algo mais, apelando à sua experiência, à sua trajetória e à visão geopolítica que o mundo lhe reconhece: deixe isso passar.</p>
+<p>Quando a luta de ideias está perdida na superfície, a modação aparece como realismo. O realismo, nesse caso, é a linguagem de quem já aceitou o mapa desenhado pelo adversário.</p>
 
-<p>Sei o que estou pedindo. Peço magnanimidade, que é a mais difícil das virtudes políticas, porque exige que quem tem razão renuncie a cobrá-la. Mas também sei que a magnanimidade é exatamente aquilo que distingue um estadista de um governante. Os governantes administram agravos; os estadistas administram séculos.</p>
+<p>Prashad chama isso pelo nome. Sem bloco histórico da classe trabalhadora, o governo de esquerda não cria raiz.</p>
 
-<p>As ofensas de um homem não devem transformar-se na política de um Estado. O agravo de um único dia não deve determinar o rumo de duas nações que levam duzentos anos aprendendo a gostar um do outro. Se isso se cristalizar, não pagará quem o provocou: pagarão o operário da fábrica de autopeças, o produtor das missões fronteiriças, o estudante, o caminhoneiro que cruza a ponte ao amanhecer, o pequeno empresário de ambos os lados do rio. Pagarão pessoas que jamais disseram uma palavra ofensiva contra ninguém.</p>
+<p>Sem raiz, o poder governamental vira passagem. E a passagem, no continente, tem sido curta.</p>
 
-<p>Nossos povos fizeram bem o seu trabalho. Construíram confiança onde havia desconfiança, integração onde havia fronteira armada, inspeção recíproca onde havia suspeita nuclear. Não permitamos que a imperícia de uma conjuntura desfaça a obra de gerações.</p>
+<p>Boric agora fala da oposição. Moreira fala de sair da prisão econômica da política. Prashad fala de armar a classe com poder social, governamental e estatal.</p>
 
-<p>VI. Compromisso</p>
+<p>São três ângulos do mesmo impasse. A esquerda que se modera para sobreviver no noticiário raramente sobrevive no governo.</p>
 
-<p>Não venho apenas pedir. Comprometo-me, no âmbito que me corresponde, a trabalhar pela reconstrução do vínculo: na Câmara dos Deputados da Nação, no diálogo interparlamentar, na agenda do Parlasul e em cada instância onde a diplomacia legislativa possa reparar o que a diplomacia presidencial danificou. Os parlamentos existem, entre outras coisas, para isso: para sustentar os povos quando os governos os descuidam.</p>
+<p>A direita não precisa dessa concessão. Ela chega com o dinheiro, com o medo e com a máquina que transforma medo em voto.</p>
 
-<p>A Argentina continuará existindo depois deste governo, assim como o Brasil continuará existindo depois do seu. É a essa Argentina permanente — a de Foz do Iguaçu, a da ABACC, a que não esquece quem a representou em Londres em 1982 — que pertenço e em cujo nome lhe escrevo.</p>
+<p>A esquerda que responde só com cautela entrega o tempo. E o tempo, neste século, tem sido o melhor aliado de quem concentra capital.</p>
 
-<p>VII. Palavras finais</p>
+<p>O recado de Montevidéu não resolve o impasse. Coloca o nome nele.</p>
 
-<p>Há quarenta anos, dois presidentes apertaram as mãos sobre uma ponte. Nenhum dos dois está mais vivo. Mas a ponte continua ali, e todos os dias por ela passam caminhões carregados de trabalho, ônibus cheios de estudantes, famílias que vão conhecer seus netos do outro lado. Essa ponte é mais forte do que qualquer insulto, porque não foi construída por um governo: foi construída por dois povos que decidiram deixar de temer um ao outro.</p>
-
-<p>Eu acredito, Senhor Presidente, que as nações se conhecem de verdade nas horas difíceis. O Brasil conheceu a Argentina em 1982 e não lhe soltou a mão. Peço que também não a solte agora, quando a ofensa veio, dolorosamente, da nossa própria casa. Os povos nem sempre escolhem os governos que merecem, mas sempre merecem algo melhor do que pagar por seus erros.</p>
-
-<p>Algum dia este episódio será uma nota de rodapé na grande história de nossos dois países. Depende do senhor, em boa medida, que seja apenas isso: uma nota de rodapé. E depende de nós, argentinos que não nos resignamos, demonstrar-lhe que do outro lado do rio continua vivendo o povo irmão de sempre, aquele que chora suas derrotas futebolísticas, celebra seus carnavais e jamais esquece quem o acompanhou quando estava sozinho.</p>
-
-<p>Que Deus guarde o povo brasileiro. Que a história nos encontre, como em Foz do Iguaçu, do mesmo lado da ponte.</p>
-
-<p>Receba, Senhor Presidente, juntamente com minhas desculpas, o testemunho da minha mais alta consideração e do sincero afeto que o povo argentino dedica ao povo brasileiro.</p>
-
-<p>MARCELA MARINA PAGANO<br>Deputada da Nação Argentina<br>Bloco Coerência — Honrável Câmara dos Deputados da Nação</p>
+<p>O fanatismo da modação não é prudência. É o hábito de governar sem construir a força que permite governar de outro modo.</p>
