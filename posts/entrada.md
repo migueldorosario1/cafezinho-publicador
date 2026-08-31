@@ -1,23 +1,23 @@
 ---
-title: "Após derrota no Chile, Boric critica o fanatismo da modação"
-excerpt: "Fora do Palácio de La Moneda, Gabriel Boric diz que o fanatismo pela modação não leva a lugar nenhum. Vijay Prashad responde que a esquerda moderada entrega o poder governamental sem construir poder social da classe trabalhadora."
+title: "Após derrota no Chile, Boric critica o fanatismo da moderação"
+excerpt: "Fora do Palácio de La Moneda, Gabriel Boric diz que o fanatismo pela moderação não leva a lugar nenhum. Vijay Prashad responde que a esquerda moderada entrega o poder governamental sem construir poder social da classe trabalhadora."
 status: "draft"
 category_ids: "22"
-tags: "Gabriel Boric, Chile, modação, ideologia"
-image_url: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Retrato_Oficial_Presidente_Boric_Font.jpg"
-image_alt: "Retrato oficial do ex-presidente do Chile Gabriel Boric"
-image_caption: "Gabriel Boric, presidente do Chile entre 2022 e 2026 — Foto: Governo do Chile"
+tags: "Gabriel Boric, Chile, moderação, ideologia"
+image_url: "https://pbs.twimg.com/media/HQhxD1CWIAARDtD.jpg"
+image_alt: "Gabriel Boric em visita ao Uruguai em agosto de 2026"
+image_caption: "Gabriel Boric no Uruguai, em agosto de 2026 — Foto: Cooperativa"
 ---
 
-<p>O ex-presidente do Chile Gabriel Boric deixou o Palácio de La Moneda em março deste ano, depois que a direita de José Antonio Kast venceu a eleição e encerrou o ciclo aberto pelo estallido social. Fora do governo, ele voltou à palavra pública com uma frase que atravessou o continente: o fanatismo pela modação, no fim, não leva a lugar nenhum.</p>
+<p>O ex-presidente do Chile Gabriel Boric deixou o Palácio de La Moneda em março deste ano, depois que a direita de José Antonio Kast venceu a eleição e encerrou o ciclo aberto pelo estallido social. Fora do governo, ele voltou à palavra pública com uma frase que atravessou o continente: o fanatismo pela moderação, no fim, não leva a lugar nenhum.</p>
 
-<p>A declaração foi dada ontem num conversatório em La Huella de Seregni, no Uruguai, no relançamento da revista Nueva Sociedad. Ao lado da senadora do Frente Amplio Constanza Moreira, Boric convocou as correntes de esquerda a defender com orgulho as próprias posições.</p>
+<p>A declaração foi dada num conversatório em La Huella de Seregni, no Uruguai, no relançamento da revista Nueva Sociedad. Ao lado da senadora do Frente Amplio Constanza Moreira, Boric convocou as correntes de esquerda a defender com orgulho as próprias posições.</p>
 
 <p>O jornal uruguaio que registrou o encontro resumiu o recado. A esquerda da região, disse o ex-mandatário, não pode assumir como próprio o afundamento moral que a direita tenta impor.</p>
 
 <p>Boric governou o Chile entre 2022 e 2026. Entrou como símbolo de uma geração que saiu das ruas e chegou ao Estado. Saiu com a direita de volta ao poder e com o debate aberto sobre o preço pago pela contenção.</p>
 
-<p>A frase sobre a modação não caiu no vazio. O historiador e jornalista indiano Vijay Prashad, diretor do Instituto Tricontinental, republicou o recorte e escreveu que Boric tem razão.</p>
+<p>A frase sobre a moderação não caiu no vazio. O historiador e jornalista indiano Vijay Prashad, diretor do Instituto Tricontinental, republicou o recorte e escreveu que Boric tem razão.</p>
 
 <p>Ser centrista e moderado, disse Prashad, acomodar-se tanto ao sistema capitalista, deixa a esquerda e o centro-esquerda incapazes de usar o poder governamental para construir o bloco histórico da classe trabalhadora. Sem esse bloco, o governo não vira raiz social.</p>
 
@@ -27,7 +27,7 @@ image_caption: "Gabriel Boric, presidente do Chile entre 2022 e 2026 — Foto: G
 
 <p>O grande capital não quer saber de projeto de esquerda. Quer concentração de capital e concentração de poder. A esquerda entra no jogo como contraforça a essa máquina.</p>
 
-<p>Por isso ela se sente obrigada a se moderar. Não porque a modação seja uma virtude natural, mas porque ainda não ganhou a luta de ideias.</p>
+<p>Por isso ela se sente obrigada a se moderar. Não porque a moderação seja uma virtude natural, mas porque ainda não ganhou a luta de ideias.</p>
 
 <p>A luta de ideias continua em curso. E a esquerda tem dificuldade de vencê-la porque o dinheiro compra ideias, compra a mídia e compra os grandes aparelhos de comunicação no mundo inteiro.</p>
 
@@ -43,7 +43,7 @@ image_caption: "Gabriel Boric, presidente do Chile entre 2022 e 2026 — Foto: G
 
 <p>O discurso, segundo ele, não pode ser principalmente catastrofista. Em contraposição à direita, os movimentos de esquerda seriam capazes de pensar o futuro de maneira positiva.</p>
 
-<p>A advertência veio em seguida. O fanatismo pela modação, no final, não leva a nenhuma parte.</p>
+<p>A advertência veio em seguida. O fanatismo pela moderação, no final, não leva a nenhuma parte.</p>
 
 <p>A frase tem o gosto amargo de quem governou e sentiu o teto. Modernizar o Estado para atender com mais agilidade os requerimentos da cidadania, disse Boric, não pode significar perder a base social e a rebeldia.</p>
 
@@ -55,7 +55,7 @@ image_caption: "Gabriel Boric, presidente do Chile entre 2022 e 2026 — Foto: G
 
 <p>É tremendamente importante não nos convertermos, ao virarmos autoridades, naquilo que sempre dissemos que não queremos ser, advertiu. Manter consistência entre o discurso e o agir, disse, é simplesmente coerência.</p>
 
-<p>Constanza Moreira empurrou o debate para o lugar em que a modação costuma se esconder. É preciso sair dessa prisão para a política que é a economia, afirmou.</p>
+<p>Constanza Moreira empurrou o debate para o lugar em que a moderação costuma se esconder. É preciso sair dessa prisão para a política que é a economia, afirmou.</p>
 
 <p>Um dos triunfos do liberalismo, segundo a senadora, foi ter encerrado a política na cárcere da economia. Enquanto a política aceitar esse cárcere, a esquerda governa o restante.</p>
 
@@ -77,7 +77,7 @@ image_caption: "Gabriel Boric, presidente do Chile entre 2022 e 2026 — Foto: G
 
 <p>A crítica de Prashad corta o otimismo pela raiz. A classe trabalhadora precisa ser armada de instrumentos para defender seus interesses.</p>
 
-<p>A modação da esquerda enfraquece esses instrumentos. Em algum momento, fortalece a direita porque não oferece às bases a velocidade de organização que o capital já possui.</p>
+<p>A moderação da esquerda enfraquece esses instrumentos. Em algum momento, fortalece a direita porque não oferece às bases a velocidade de organização que o capital já possui.</p>
 
 <p>O capital não pede licença para se concentrar. Compra veículos, partidos, think tanks, plataformas e pauta o que entra no noticiário como senso comum.</p>
 
@@ -89,7 +89,7 @@ image_caption: "Gabriel Boric, presidente do Chile entre 2022 e 2026 — Foto: G
 
 <p>Não é um drama exclusivo de Santiago. É o mesmo dilema que atravessa governos progressistas na América Latina e coalizões social-democratas na Europa.</p>
 
-<p>Quando a luta de ideias está perdida na superfície, a modação aparece como realismo. O realismo, nesse caso, é a linguagem de quem já aceitou o mapa desenhado pelo adversário.</p>
+<p>Quando a luta de ideias está perdida na superfície, a moderação aparece como realismo. O realismo, nesse caso, é a linguagem de quem já aceitou o mapa desenhado pelo adversário.</p>
 
 <p>Prashad chama isso pelo nome. Sem bloco histórico da classe trabalhadora, o governo de esquerda não cria raiz.</p>
 
@@ -105,4 +105,4 @@ image_caption: "Gabriel Boric, presidente do Chile entre 2022 e 2026 — Foto: G
 
 <p>O recado de Montevidéu não resolve o impasse. Coloca o nome nele.</p>
 
-<p>O fanatismo da modação não é prudência. É o hábito de governar sem construir a força que permite governar de outro modo.</p>
+<p>O fanatismo da moderação não é prudência. É o hábito de governar sem construir a força que permite governar de outro modo.</p>
