@@ -4,9 +4,9 @@ excerpt: "Fora do Palácio de La Moneda, Gabriel Boric diz que o fanatismo pela 
 status: "draft"
 category_ids: "22"
 tags: "Gabriel Boric, Chile, modação, ideologia"
-image_url: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Gabriel_Boric_2026_%28cropped%29.jpg"
-image_alt: "O ex-presidente do Chile Gabriel Boric em janeiro de 2026"
-image_caption: "Gabriel Boric em janeiro de 2026, ainda na Presidência — Foto: Governo do Chile"
+image_url: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Retrato_Oficial_Presidente_Boric_Font.jpg"
+image_alt: "Retrato oficial do ex-presidente do Chile Gabriel Boric"
+image_caption: "Gabriel Boric, presidente do Chile entre 2022 e 2026 — Foto: Governo do Chile"
 ---
 
 <p>O ex-presidente do Chile Gabriel Boric deixou o Palácio de La Moneda em março deste ano, depois que a direita de José Antonio Kast venceu a eleição e encerrou o ciclo aberto pelo estallido social. Fora do governo, ele voltou à palavra pública com uma frase que atravessou o continente: o fanatismo pela modação, no fim, não leva a lugar nenhum.</p>
