@@ -103,3 +103,5 @@ tags: "Gabriel Boric, Chile, moderação, ideologia"
 <p>O recado de Montevidéu não resolve o impasse. Coloca o nome nele.</p>
 
 <p>O fanatismo da moderação não é prudência. É o hábito de governar sem construir a força que permite governar de outro modo.</p>
+
+<!-- republica 2026-08-31 19h39 -->
