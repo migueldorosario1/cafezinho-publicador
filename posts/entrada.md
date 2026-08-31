@@ -4,9 +4,6 @@ excerpt: "Fora do Palácio de La Moneda, Gabriel Boric diz que o fanatismo pela 
 status: "draft"
 category_ids: "22"
 tags: "Gabriel Boric, Chile, moderação, ideologia"
-image_url: "https://images.weserv.nl/?url=pbs.twimg.com/media/HQhxD1CWIAARDtD.jpg"
-image_alt: "Gabriel Boric em visita ao Uruguai em agosto de 2026"
-image_caption: "Gabriel Boric no Uruguai, em agosto de 2026 — Foto: Cooperativa"
 ---
 
 <p>O ex-presidente do Chile Gabriel Boric deixou o Palácio de La Moneda em março deste ano, depois que a direita de José Antonio Kast venceu a eleição e encerrou o ciclo aberto pelo estallido social. Fora do governo, ele voltou à palavra pública com uma frase que atravessou o continente: o fanatismo pela moderação, no fim, não leva a lugar nenhum.</p>
