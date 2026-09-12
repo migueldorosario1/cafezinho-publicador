@@ -4,11 +4,12 @@ excerpt: "Ex-governador do RS diz que o comício sob a garoa no Largo Glênio Pe
 status: "draft"
 category_ids: "22,2403,2900"
 tags: "Tarso Genro, Lula, Porto Alegre, eleições 2026, Rio Grande do Sul, Juliana Brizola"
-
-image_url: "https://pbs.twimg.com/media/HR-M6PCa4AAA7MP.jpg?name=large"
-image_alt: "Vista aérea do comício de Lula no Largo Glênio Peres, em Porto Alegre, na sexta-feira 11 de setembro de 2026"
-image_caption: "Comício de Lula no Largo Glênio Peres, em Porto Alegre, na sexta (11) — Foto: Ricardo Stuckert"
 ---
+
+<figure class="wp-block-image size-large">
+<img src="https://pbs.twimg.com/media/HR-M6PCa4AAA7MP.jpg?name=large" alt="Vista aérea do comício de Lula no Largo Glênio Peres, em Porto Alegre, na sexta-feira 11 de setembro de 2026" />
+<figcaption>Comício de Lula no Largo Glênio Peres, em Porto Alegre, na sexta (11) — Foto: Ricardo Stuckert</figcaption>
+</figure>
 
 <p>O ex-governador do Rio Grande do Sul Tarso Genro publicou neste sábado um vídeo de quase quatro minutos sobre a passagem de Lula por Porto Alegre.</p>
 
